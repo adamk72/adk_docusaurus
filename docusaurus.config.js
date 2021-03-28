@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     image: 'img/teamwork.png',
     navbar: {
-      title: 'Adam Kecskes Consulting Docs',
+      title: 'Adam Kecskes Consulting',
       logo: {
         alt: 'My Site Logo',
         src: 'img/teamwork.png',
@@ -122,4 +122,6 @@ module.exports = {
       },
     ],
   ],
+  stylesheets:
+    ["https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Permanent+Marker&display=swap", "https://fonts.googleapis.com/css?family=Roboto:300,400,500", "https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat+Subrayada&display=swap"]
 };
