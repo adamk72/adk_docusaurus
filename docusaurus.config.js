@@ -26,6 +26,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
         { to: 'speak', label: 'Speaking Blog', position: 'left' },
+        { to: 'docs/vue', label: 'Vue', position: 'left' },
         {
           href: 'https://github.com/adamk72',
           label: 'GitHub',
