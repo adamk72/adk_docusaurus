@@ -7,14 +7,14 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'adamk72', // Usually your GitHub org/user name.
+  projectName: 'adk_consulting', // Usually your repo name.
   themeConfig: {
     image: 'img/teamwork.png',
     navbar: {
       title: 'Adam Kecskes Consulting',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Teamwork Site Logo',
         src: 'img/teamwork.png',
       },
       items: [
@@ -38,11 +38,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Light Reading',
           items: [
             {
               label: 'Getting Started',
               to: 'docs/',
+            },
+            {
+              label: 'Tech & PM Blog',
+              to: 'blog',
+            },
+            {
+              label: 'Speaking Blog',
+              to: 'speak',
             },
           ],
         },
@@ -50,35 +58,35 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/in/adamkecskes/'
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/adamk72',
+            },
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/users/13907148/adam-kecskes',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/akecskes',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Credits',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            { label: 'Freepik Icons', href: 'https://www.flaticon.com/authors/freepik' },
+            { label: 'Eucalyp Icons', href: 'https://creativemarket.com/eucalyp' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Adam Kecskes Consulting`,
+
     },
+
   },
   presets: [
     [
@@ -122,6 +130,4 @@ module.exports = {
       },
     ],
   ],
-  stylesheets:
-    ["https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Permanent+Marker&display=swap", "https://fonts.googleapis.com/css?family=Roboto:300,400,500", "https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat+Subrayada&display=swap"]
 };
