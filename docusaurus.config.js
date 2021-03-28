@@ -19,14 +19,34 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Consulting',
           position: 'left',
+          items: [
+            {
+              to: 'docs/',
+              activeBasePath: 'docs',
+              label: 'Docs',
+              position: 'left',
+            }
+          ]
         },
-        { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
-        { to: 'speak', label: 'Speaking Blog', position: 'left' },
-        { to: 'docs/vue', label: 'Vue', position: 'left' },
+        {
+          label: 'Learning', position: 'left',
+          items: [
+            { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
+            { to: 'docs/vue', label: 'Vue', position: 'left' },
+
+          ]
+        },
+        {
+          label: 'Speaking', position: 'left',
+          items: [
+            { to: 'speak', label: 'Speaking Blog', position: 'left' },
+            { to: 'docs/speak', label: 'Speaking', position: 'left' },
+
+          ]
+        },
+
         {
           href: 'https://github.com/adamk72',
           label: 'GitHub',
