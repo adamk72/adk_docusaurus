@@ -23,8 +23,11 @@ module.exports = {
           position: 'left',
           items: [
             {
+              to: 'about', label: 'About'
+            },
+            {
               to: 'docs/',
-              activeBasePath: 'docs',
+              // activeBasePath: 'docs',
               label: 'Docs',
               position: 'left',
             }
