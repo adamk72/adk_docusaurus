@@ -8,9 +8,9 @@ import grids from './grids.module.css';
 const About = () => {
     return (
         <Layout title="About">
-            <div class={clsx(grids.wrapper, styles.features)} >
+            <div className={clsx(grids.twoColumnWrapper, styles.features)} >
                 <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' alt="Photo of Adam Kecskes in Australia" width="50%" />
-                <div>
+                <div className="paper">
                     <p>Hi! I'm Adam Kecskes, and I've done a lot to help companies thrive over the 20 years of my career in technology. Here's how I consider myself; I'm a:</p>
                     <ul>
                         <li>
@@ -24,7 +24,7 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div className="paper">
                     <h2>I Ask a Lot of Questions</h2>
                     <p>
                         I'm a troubleshooter; instead of putting up with the status quo, I'm
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
                 <img src="./../static/img/computer.png" width="35%" alt="Computer Icon" />
                 <img src="./../static/img/flow.png" width="35%" alt="Teamwork Icon" />
-                <div>
+                <div className="paper">
                     <h2>I Can Fill Many Roles</h2>
                     <p>
                         I've worked for 3 large cap companies and 3 startup companies all at
@@ -56,7 +56,7 @@ const About = () => {
         </p>
                     <p>Some of the domains I've worked in:</p>
                 </div>
-                <div>
+                <div className="paper">
                     <h2>We Are Better Together</h2>
                     <p>
                         The best teams I’ve lead or worked for have been the ones where we had
