@@ -3,7 +3,7 @@ module.exports = {
   title: 'Adam Kecskes Consulting',
   tagline: 'Less Effort, Better Results',
   url: 'https://kecskes.net',
-  baseUrl: '/foo/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
