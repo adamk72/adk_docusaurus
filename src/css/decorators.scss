@@ -8,12 +8,14 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  img {
-    margin: auto;
-  }
 }
-[data-theme='dark'] .circularEnclosure {
-  background-color: var(--color-grey);
+
+.circularEnclosure img {
+  margin: auto;
+}
+
+html[data-theme='dark'] .circularEnclosure {
+  background-color: var(--ifm-background-surface-color);
 }
 
 .paper {
@@ -23,12 +25,12 @@
   margin: 0 auto;
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
-    inset 0 0 50px rgba(0, 0, 0, 0.1);
+    inset 0 0 50px rgba(72, 77, 91, 0.1);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(72, 77, 9, 0.1);
 }
 [data-theme='dark'] .paper {
-  background-color: var(--color-grey);
+  background-color: var(--ifm-background-surface-color);
   border-radius: 20px;
 }
 

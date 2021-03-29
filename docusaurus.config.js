@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'adamk72', // Usually your GitHub org/user name.
   projectName: 'adk_consulting', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true
+    },
     image: 'img/teamwork.png',
     navbar: {
       title: 'Adam Kecskes Consulting',
