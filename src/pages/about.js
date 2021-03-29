@@ -3,6 +3,7 @@ import Layout from '@theme/Layout'
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import grids from './grids.module.css';
+import CircularEnclose from '../components/CircularEnclose'
 
 
 const About = () => {
@@ -45,8 +46,8 @@ const About = () => {
                         organization.
       </p>
                 </div>
-                <img src="./../static/img/computer.png" width="35%" alt="Computer Icon" />
-                <img src="./../static/img/flow.png" width="35%" alt="Teamwork Icon" />
+                <CircularEnclose image="./../static/img/computer.png" alt="Computer Icon" />
+                <CircularEnclose image="./../static/img/flow.png" alt="Flow Icon" />
                 <div className="paper">
                     <h2>I Can Fill Many Roles</h2>
                     <p>
@@ -82,7 +83,7 @@ const About = () => {
         </li>
                     </ul>
                 </div>
-                <img src="./../static/img/teamwork.png" width="35%" alt="Flow Icon" />
+                <CircularEnclose image="./../static/img/teamwork.png" alt="Teamwork Icon" />
             </div>
         </Layout>
     )
