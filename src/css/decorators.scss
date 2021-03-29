@@ -2,7 +2,7 @@
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  background-color: black;
+  background-color: var(--ifm-color-primary-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +11,9 @@
   img {
     margin: auto;
   }
+}
+[data-theme='dark'] .circularEnclosure {
+  background-color: var(--color-grey);
 }
 
 .paper {
@@ -23,6 +26,10 @@
     inset 0 0 50px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+[data-theme='dark'] .paper {
+  background-color: var(--color-grey);
+  border-radius: 20px;
 }
 
 .paper:before,
