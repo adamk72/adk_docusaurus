@@ -10,18 +10,28 @@ const About = () => {
     return (
         <Layout title="About">
             <div className={clsx(grids.twoColumnWrapper, styles.features)} >
-                <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' alt="Photo of Adam Kecskes in Australia" width="50%" />
+                <div className="card">
+                    <div className="card__image">
+                        <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' title="Me at McQuaries" alt="Photo of Adam Kecskes in Australia" />
+                    </div>
+                    <div class="card__body">
+                        <small>My last name is pronounced 'kes-kes.' The 'c' is silent for good luck. 🍀</small>
+                    </div>
+                </div>
                 <div className="paper">
-                    <p>Hi! I'm Adam Kecskes, and I've done a lot to help companies thrive over the 20 years of my career in technology. Here's how I consider myself; I'm a:</p>
+                    <p>Hi! I'm Adam Kecskes, and I've done a lot to help companies thrive over the 20 years of my career in technology. Here's how I consider myself; I'm a(n):</p>
                     <ul>
+                        <li>
+                            <h2>Information Architect</h2>
+                        </li>
+                        <li>
+                            <h2>Project Orchestrator</h2>
+                        </li>
                         <li>
                             <h2>Operational Optimizer</h2>
                         </li>
                         <li>
-                            <h2>Program Orchestrator</h2>
-                        </li>
-                        <li>
-                            <h2>Customer Advocate</h2>
+                            <h2>Advocate for Customers, Clients, and Workers</h2>
                         </li>
                     </ul>
                 </div>
