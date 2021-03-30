@@ -20,11 +20,11 @@ module.exports = {
       items: ['vue/getting-started']
     },
   ],
-  speak: [
+  speakingLessons: [
     {
       type: 'category',
       label: 'Lessons in Speaking',
-      items: ['speak/getting-started']
+      items: ['speakingLessons/getting-started']
     },
   ],
 };

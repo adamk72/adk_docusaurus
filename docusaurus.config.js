@@ -47,8 +47,7 @@ module.exports = {
         {
           label: 'Speaking', position: 'left',
           items: [
-            { to: 'speak', label: 'Speaking Blog', position: 'left' },
-            { to: 'docs/speak', label: 'Speaking', position: 'left' },
+            { to: 'docs/speakingLessons', label: 'Speaking', position: 'left' },
 
           ]
         },
@@ -74,10 +73,10 @@ module.exports = {
               label: 'Tech & PM Blog',
               to: 'blog',
             },
-            {
-              label: 'Speaking Blog',
-              to: 'speak',
-            },
+            // {
+            //   label: 'Speaking Blog',
+            //   to: 'speak',
+            // },
           ],
         },
         {
@@ -137,25 +136,18 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        /**
-         * Required for any multi-instance plugin
-         */
-        id: 'speaker-blog',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
-        routeBasePath: '/speak',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
-        path: './speak',
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-blog',
+  //     {
+  //       // Required for any multi-instance plugin
+  //       id: 'speaker-blog',
+  //       // URL route for the blog section of your site. *DO NOT* include a trailing slash.
+  //       routeBasePath: 'speak',
+  //       // Path to data on filesystem relative to site dir.
+  //       path: 'speak',
+  //     },
+  //   ],
+  // ],
   plugins: ['docusaurus-plugin-sass'],
 };
