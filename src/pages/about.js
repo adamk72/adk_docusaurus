@@ -8,7 +8,7 @@ import CircularEnclose from '../components/CircularEnclose'
 const About = () => {
     return (
         <Layout title="About">
-            <div className={clsx(grids.twoColumnWrapper, styles.features)} >
+            <div className={clsx("twoColumnWrapper")} >
                 <div className="card">
                     <div className="card__image">
                         <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' title="Me at McQuaries" alt="Photo of Adam Kecskes in Australia" />
