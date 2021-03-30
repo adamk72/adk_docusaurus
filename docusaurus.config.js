@@ -106,6 +106,7 @@ module.exports = {
           items: [
             { label: 'Freepik Icons', href: 'https://www.flaticon.com/authors/freepik' },
             { label: 'Eucalyp Icons', href: 'https://creativemarket.com/eucalyp' },
+            { label: 'PIRO4D', href: "https://pixabay.com/users/piro4d-2707530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2534484" },
           ],
         },
       ],
@@ -131,7 +132,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: [require.resolve('./src/css/decorators.scss'), require.resolve('./src/css/custom.css')]
+          customCss: [require.resolve('./src/css/decorators.scss'), require.resolve('./src/css/custom.css'), require.resolve('./src/css/grids.css')]
         },
       },
     ],

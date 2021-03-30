@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '@theme/Layout'
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import grids from './grids.module.css';
 import CircularEnclose from '../components/CircularEnclose'
 
 

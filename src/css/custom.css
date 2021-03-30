@@ -31,3 +31,7 @@
 p {
   font-family: 'Roboto Slab';
 }
+a.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: white;
+  /* color: red; */
+}

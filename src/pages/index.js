@@ -60,17 +60,23 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
+          <div className={clsx("twoColumnWrapper", styles.heroFeatures)}>
+            <div>
+              <div className={clsx(styles.heroFeatures, 'heroText')}>
+                <h1 className="hero__title">{siteConfig.title}</h1>
+                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <div className={styles.buttons}>
+                  <Link
+                    className={clsx(styles.getStarted,
+                      'button button--outline button--secondary button--lg',
+                    )}
+                    to={useBaseUrl('docs/')}>
+                    Get in Touch
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div><img className={styles.heroIcon} src="img/flipped_imbr_icon.svg" /></div>
           </div>
         </div>
       </header>
