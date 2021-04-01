@@ -29,26 +29,23 @@ module.exports = {
               to: 'about', label: 'About'
             },
             {
-              to: 'docs/',
-              // activeBasePath: 'docs',
-              label: 'Docs',
-              position: 'left',
-            }
+              to: 'services', label: 'Services'
+            },
+
           ]
         },
         {
           label: 'Learning', position: 'left',
           items: [
-            { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
             { to: 'docs/vue', label: 'Vue', position: 'left' },
-
+            { to: 'docs/speakingLessons', label: 'Speaking', position: 'left' },
+            { to: 'docs/', activeBasePath: 'docs', label: 'Docs', position: 'left' }
           ]
         },
         {
-          label: 'Speaking', position: 'left',
+          label: 'Blogs', position: 'left',
           items: [
-            { to: 'docs/speakingLessons', label: 'Speaking', position: 'left' },
-
+            { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
           ]
         },
 
