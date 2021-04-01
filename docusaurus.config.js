@@ -118,13 +118,16 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/adamk72/adk_docusaurus/tree/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          editUrl:
+            'https://github.com/adamk72/adk_docusaurus/tree/master/',
+        },
+        speakingBlog: {
+          showReadingTime: true,
           editUrl:
             'https://github.com/adamk72/adk_docusaurus/tree/master/',
         },
