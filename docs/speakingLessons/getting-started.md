@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Lessons in Speaking 
 slug: /speakingLessons
 ---
-## Some Speaking Stuff
+## Let's learn how to chit-chat first. 
