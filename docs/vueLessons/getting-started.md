@@ -2,5 +2,19 @@
 title: Lessons in Vue
 slug: /vueLessons
 ---
+## Basic Structure
 
-## Step 1: Let's talk about Vue
+```javascript
+<template>
+    // Components, HTML, and special Vue code goes here.
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
