@@ -65,7 +65,7 @@ export default function Home() {
               <div className={clsx(styles.heroFeatures, 'heroText')}>
                 <h1 className="hero__title">{siteConfig.title}</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
-                <div className={styles.buttons}>
+                {/* <div className={styles.buttons}>
                   <Link
                     className={clsx(styles.getStarted,
                       'button button--outline button--secondary button--lg',
@@ -73,7 +73,7 @@ export default function Home() {
                     to={useBaseUrl('docs/')}>
                     Get in Touch
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div><img className={styles.heroIcon} src="img/flipped_imbr_icon.svg" /></div>
