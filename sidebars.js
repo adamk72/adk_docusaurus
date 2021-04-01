@@ -13,11 +13,11 @@ module.exports = {
       ],
     },
   ],
-  vue: [
+  vueLessons: [
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vue/getting-started']
+      items: ['vueLessons/getting-started']
     },
   ],
   speakingLessons: [
