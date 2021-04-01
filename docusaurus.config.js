@@ -45,7 +45,8 @@ module.exports = {
         {
           label: 'Blogs', position: 'left',
           items: [
-            { to: 'blog', label: 'Tech & PM Blog', position: 'left' },
+            { to: 'blog', label: 'PM, Ops, Tech', position: 'left' },
+            { to: 'speakingBlog', label: 'Leadership & Speaking', position: 'left' },
           ]
         },
 
@@ -70,10 +71,10 @@ module.exports = {
               label: 'Tech & PM Blog',
               to: 'blog',
             },
-            // {
-            //   label: 'Speaking Blog',
-            //   to: 'speak',
-            // },
+            {
+              label: 'Speaking Blog',
+              to: 'speakBlog',
+            },
           ],
         },
         {
@@ -139,11 +140,11 @@ module.exports = {
       '@docusaurus/plugin-content-blog',
       {
         // Required for any multi-instance plugin
-        id: 'speaker-blog',
+        id: 'speaking-blog',
         // URL route for the blog section of your site. *DO NOT* include a trailing slash.
-        routeBasePath: 'speak',
+        routeBasePath: 'speakingBlog',
         // Path to data on filesystem relative to site dir.
-        path: 'speak',
+        path: 'speakingBlog',
       },
     ],
   ],

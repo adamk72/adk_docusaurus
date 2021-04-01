@@ -13,7 +13,7 @@ const About = () => {
                     <div className="card__image">
                         <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' title="Me at McQuaries" alt="Photo of Adam Kecskes in Australia" />
                     </div>
-                    <div class="card__body">
+                    <div className="card__body">
                         <small>My last name is pronounced 'kes-kes.' The 'c' is silent for good luck. 🍀</small>
                     </div>
                 </div>
