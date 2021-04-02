@@ -17,14 +17,14 @@ module.exports = {
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vueLessons/getting-started']
+      items: ['vue-lessons/getting-started']
     },
   ],
   speakingLessons: [
     {
       type: 'category',
       label: 'Lessons in Speaking',
-      items: ['speakingLessons/getting-started']
+      items: ['speaking-lessons/getting-started']
     },
   ],
 };

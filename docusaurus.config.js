@@ -40,8 +40,8 @@ module.exports = {
         {
           label: 'Learning', position: 'left',
           items: [
-            { to: 'docs/vueLessons', label: 'Vue', position: 'left' },
-            { to: 'docs/speakingLessons', label: 'Speaking', position: 'left' },
+            { to: 'docs/vue-lessons', label: 'Vue', position: 'left' },
+            { to: 'docs/speaking-lessons', label: 'Speaking', position: 'left' },
             { to: 'docs/', activeBasePath: 'docs', label: 'Docs', position: 'left' }
           ]
         },
@@ -49,7 +49,7 @@ module.exports = {
           label: 'Blogs', position: 'left',
           items: [
             { to: 'blog', label: 'PM, Ops, Tech', position: 'left' },
-            { to: 'speakingBlog', label: 'Leadership & Speaking', position: 'left' },
+            { to: 'speaking-blog', label: 'Leadership & Speaking', position: 'left' },
           ]
         },
 
@@ -148,9 +148,9 @@ module.exports = {
         // Required for any multi-instance plugin
         id: 'speaking-blog',
         // URL route for the blog section of your site. *DO NOT* include a trailing slash.
-        routeBasePath: 'speakingBlog',
+        routeBasePath: 'speaking-blog',
         // Path to data on filesystem relative to site dir.
-        path: 'speakingBlog',
+        path: 'speaking-blog',
       },
     ],
     [

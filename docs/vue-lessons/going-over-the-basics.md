@@ -1,8 +1,8 @@
 ---
 title: Lessons in Vue
-slug: /vueLessons
 ---
 ## Basic Structure
+Vue has three basic 
 
 ```javascript {3}
 <template>
