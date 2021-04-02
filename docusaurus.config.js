@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'adamk72', // Usually your GitHub org/user name.
   projectName: 'adk_consulting', // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ['javascript'],
+    },
     colorMode: {
       respectPrefersColorScheme: true
     },

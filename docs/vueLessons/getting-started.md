@@ -4,7 +4,7 @@ slug: /vueLessons
 ---
 ## Basic Structure
 
-```javascript
+```javascript {3}
 <template>
     // Components, HTML, and special Vue code goes here.
 </template>
@@ -18,4 +18,7 @@ export default {
 <style>
 
 </style>
+```
+```jsx
+console.log('Every repo must come with a mascot.');
 ```
