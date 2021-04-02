@@ -1,5 +1,5 @@
 ---
 title: Lessons in Speaking 
-slug: /speakingLessons
+slug: /speaking-lessons 
 ---
 ## Let's learn how to chit-chat first. 

@@ -40,8 +40,8 @@ module.exports = {
         {
           label: 'Learning', position: 'left',
           items: [
-            { to: 'docs/vue-lessons', label: 'Vue', position: 'left' },
-            { to: 'docs/speaking-lessons', label: 'Speaking', position: 'left' },
+            { to: 'docs/vue-lessons/', label: 'Vue', position: 'left' },
+            { to: 'docs/speaking-lessons/', label: 'Speaking', position: 'left' },
             { to: 'docs/', activeBasePath: 'docs', label: 'Docs', position: 'left' }
           ]
         },
@@ -49,7 +49,7 @@ module.exports = {
           label: 'Blogs', position: 'left',
           items: [
             { to: 'blog', label: 'PM, Ops, Tech', position: 'left' },
-            { to: 'speaking-blog', label: 'Leadership & Speaking', position: 'left' },
+            { to: 'speaking-blog/', label: 'Leadership & Speaking', position: 'left' },
           ]
         },
 

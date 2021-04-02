@@ -1,5 +1,5 @@
 ---
-title: Lessons in Vue
+title: Getting the Basics Down
 ---
 ## Basic Structure
 Vue has three basic 

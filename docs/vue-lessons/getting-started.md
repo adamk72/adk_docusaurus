@@ -1,5 +1,6 @@
 ---
 title: What This is About
+slug: /vue-lessons
 ---
 
 ## How I got here

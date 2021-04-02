@@ -17,7 +17,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vue-lessons/getting-started']
+      items: ['vue-lessons/getting-started', 'vue-lessons/going-over-the-basics']
     },
   ],
   speakingLessons: [
