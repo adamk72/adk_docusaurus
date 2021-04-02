@@ -11,12 +11,8 @@ module.exports = {
   projectName: 'adk_consulting', // Usually your repo name.
   themeConfig: {
     prism: {
-      additionalLanguages: ['javascript'],
+      theme: require('prism-react-renderer/themes/vsDark'),
     },
-    colorMode: {
-      respectPrefersColorScheme: true
-    },
-    image: 'img/teamwork.png',
     navbar: {
       title: 'Adam Kecskes Consulting',
       logo: {

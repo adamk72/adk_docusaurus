@@ -4,7 +4,7 @@ title: Getting the Basics Down
 ## Basic Structure
 Vue has three basic 
 
-```javascript {3}
+```javascript 
 <template>
     // Components, HTML, and special Vue code goes here.
 </template>
@@ -18,7 +18,4 @@ export default {
 <style>
 
 </style>
-```
-```jsx
-console.log('Every repo must come with a mascot.');
 ```
