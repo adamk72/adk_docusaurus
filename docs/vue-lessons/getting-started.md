@@ -29,9 +29,23 @@ var app = new Vue({
   }
 })
 ```
+:::tip
+
+Creating an app this way and mounting to the DOM is one way to apply Vue directly to a high-level .html file (or any .html file, really).
+
+:::
 
 ## Structure
 
 The sidebar will contain broad topics. My goal is to create incremental steps, so that as you go through, each section builds simply on the previous. I realize I'm going to have to make some jumps back and forth between topics, and I'll try to do that with links rather than repeating myself.
 
 I hope I learn a lot and I hope you enjoy and learn a lot as well.
+
+
+## Debugging Issues
+I'll put major issues I encounter here.
+:::caution Package Managers
+
+As with many programs, you can use either Npm or Yarn for package management. If you're having weird issues, makes sure you only have one lock file, either for yarn or npm, but not both.
+
+:::
