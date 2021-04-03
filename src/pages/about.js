@@ -11,7 +11,7 @@ const About = () => {
             <div className={clsx("twoColumnWrapper")} >
                 <div className="card">
                     <div className="card__image">
-                        <img src='./../static/img/mrs_mcquaries_chair_sydney_australia.jpg' title="Me at McQuaries" alt="Photo of Adam Kecskes in Australia" />
+                        <img src={require('@site/static/img/mrs_mcquaries_chair_sydney_australia.jpg').default} title="Me at McQuaries" alt="Photo of Adam Kecskes in Australia" />
                     </div>
                     <div className="card__body">
                         <small>My last name is pronounced 'kes-kes.' The 'c' is silent for good luck. 🍀</small>
@@ -55,8 +55,8 @@ const About = () => {
                         organization.
       </p>
                 </div>
-                <CircularEnclose image="./../static/img/computer.png" alt="Computer Icon" />
-                <CircularEnclose image="./../static/img/flow.png" alt="Flow Icon" />
+                <CircularEnclose image={require('@site/static/img/computer.png').default} alt="Computer Icon" />
+                <CircularEnclose image={require('@site/static/img/flow.png').default} alt="Flow Icon" />
                 <div className="paper">
                     <h2>I Can Fill Many Roles</h2>
                     <p>
@@ -92,7 +92,7 @@ const About = () => {
         </li>
                     </ul>
                 </div>
-                <CircularEnclose image="./../static/img/teamwork.png" alt="Teamwork Icon" />
+                <CircularEnclose image={require('@site/static/img/teamwork.png').default} alt="Teamwork Icon" />
             </div>
         </Layout>
     )
