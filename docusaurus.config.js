@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               label: 'Speaking Blog',
-              to: 'speakingBlog',
+              to: 'speaking-blog',
             },
           ],
         },
@@ -147,14 +147,6 @@ module.exports = {
         routeBasePath: 'speaking-blog',
         // Path to data on filesystem relative to site dir.
         path: 'speaking-blog',
-      },
-    ],
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-        trailingSlash: false,
       },
     ],
   ],
