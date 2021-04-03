@@ -21,7 +21,7 @@ You do not need to have all three sections; a single section will be enough to m
 
 ### Template Section
 Along with standard HTML, you can use other Vue components and Vue directives here. Directives allow for the control of components and html elements.
-```javascript
+```javascript {3}
 <template>
     <div class="foo">
         <button v-on:click="add(1)">       // <-- 'v-on:' is a directive
@@ -33,7 +33,7 @@ Along with standard HTML, you can use other Vue components and Vue directives he
 
 ### Script Section
 This is where the more sophisticated internal logic of the component is handled. There are two objects in this script section, data() and method. Notice that data() is a function (and it has to be), while method is an object name that contains specifically named functions to be executed in the template or DOM.
-```javascript
+```javascript {2}
 <script>
     data() {                // data _must_ be a function
         return {
@@ -50,10 +50,10 @@ This is where the more sophisticated internal logic of the component is handled.
 There are many more objects that can go into the script section.
 ### CSS Section
 If 'scoped' is applied, css will only apply to this component; otherwise it is global; there is a way for children to access scoped styles as well.
-```javascript
+```javascript {1}
 <style scoped>                  // 'scoped' attribute is very useful
 ```
-```css
+```css {1}
     .foo {                      // .foo will only apply to this component
         font-size: 2rem;        //  because this section is scoped
     }
