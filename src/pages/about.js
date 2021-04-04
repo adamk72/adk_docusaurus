@@ -18,6 +18,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="paper">
+                    <h2>Who am I?</h2>
                     <p>Hi! I'm Adam Kecskes, and I've done a lot to help companies thrive over the 20 years of my career in technology. Here's how I consider myself; I'm a(n):</p>
                     <ul>
                         <li>
@@ -64,10 +65,10 @@ const About = () => {
                         various stages of maturity,&nbsp;&nbsp;giving me a broad scope of
                         business opportunities to learn from.
         </p>
-                    <p>Some of the domains I've worked in:</p>
+                    {/* <p>Some of the domains I've worked in:</p> */}
                 </div>
                 <div className="paper">
-                    <h2>We Are Better Together</h2>
+                    <h2>Great Teams = Great Results</h2>
                     <p>
                         The best teams I’ve lead or worked for have been the ones where we had
                         mutual respect for one another and engaged in our work with transparency
