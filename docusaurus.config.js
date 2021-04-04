@@ -36,9 +36,9 @@ module.exports = {
         {
           label: 'Learning', position: 'left',
           items: [
+            { to: 'docs/', activeBasePath: 'docs', label: 'Knowing Better', position: 'left' },
             { to: 'docs/vue-lessons/', label: 'Vue', position: 'left' },
             { to: 'docs/speaking-lessons/', label: 'Speaking', position: 'left' },
-            { to: 'docs/', activeBasePath: 'docs', label: 'Docs', position: 'left' }
           ]
         },
         {

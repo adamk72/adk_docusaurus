@@ -2,16 +2,14 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'On Better Organizations',
       items: [
         'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
       ],
     },
+    { type: 'category', label: 'Information Architecture', items: ['getting-started'] },
+    { type: 'category', label: 'Project Management Tools', items: ['getting-started'] }
+
   ],
   vueLessons: [
     {
