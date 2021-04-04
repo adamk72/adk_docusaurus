@@ -4,11 +4,11 @@ module.exports = {
       type: 'category',
       label: 'On Better Organizations',
       items: [
-        'getting-started',
+        'getting-started', 'emails', 'meetings', 'spreadsheets'
       ],
     },
-    { type: 'category', label: 'Information Architecture', items: ['getting-started'] },
-    { type: 'category', label: 'Project Management Tools', items: ['getting-started'] }
+    { type: 'category', label: 'Project Management Tools', items: ['pm-tools/the-list'] },
+    { type: 'category', label: 'Information Architecture', items: ['ia/getting-started', 'ia/taxonomy'] },
 
   ],
   vueLessons: [
