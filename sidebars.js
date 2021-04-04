@@ -15,7 +15,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vue-lessons/getting-started', 'vue-lessons/single-file-components', 'vue-lessons/expressions', 'vue-lessons/directives', 'vue-lessons/binding', 'vue-lessons/lifecycle-hooks', 'vue-lessons/list-rendering', 'vue-lessons/slots', 'vue-lessons/custom-events',]
+      items: ['vue-lessons/getting-started', 'vue-lessons/single-file-components', 'vue-lessons/expressions', 'vue-lessons/directives', 'vue-lessons/data-binding', 'vue-lessons/lifecycle-hooks', 'vue-lessons/list-rendering', 'vue-lessons/slots', 'vue-lessons/custom-events',]
     },
     {
       type: 'category',
