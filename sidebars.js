@@ -4,10 +4,10 @@ module.exports = {
       type: 'category',
       label: 'On Better Organizations',
       items: [
-        'getting-started',
+        'getting-started', { type: 'category', label: 'PM Tools', items: ['pm-tools/the-list'] }, 'emails', 'meetings', 'spreadsheets'
       ],
     },
-    { type: 'category', label: 'Information Architecture', items: ['getting-started'] },
+    { type: 'category', label: 'Information Architecture', items: ['ia/getting-started', 'ia/taxonomy'] },
     { type: 'category', label: 'Project Management Tools', items: ['getting-started'] }
 
   ],
