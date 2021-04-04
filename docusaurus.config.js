@@ -17,7 +17,7 @@ module.exports = {
       title: 'Adam Kecskes Consulting',
       logo: {
         alt: 'Teamwork Site Logo',
-        src: 'img/teamwork.png',
+        src: 'img/teamwork_gear.png',
       },
       items: [
         {
