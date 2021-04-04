@@ -15,8 +15,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vue-lessons/getting-started', 'vue-lessons/going-over-the-basics']
+      items: ['vue-lessons/getting-started', 'vue-lessons/single-file-components', 'vue-lessons/expressions', 'vue-lessons/directives', 'vue-lessons/binding', 'vue-lessons/lifecycle-hooks', 'vue-lessons/list-rendering', 'vue-lessons/slots', 'vue-lessons/custom-events',]
     },
+    {
+      type: 'category',
+      label: 'Lessons Learned',
+      items: ['vue-lessons/import-array-into-component']
+    }
   ],
   speakingLessons: [
     {

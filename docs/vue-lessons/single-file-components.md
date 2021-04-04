@@ -1,5 +1,5 @@
 ---
-title: Getting the Basics Down
+title: Single File Component Anatomy 
 ---
 ## Basic Structure
 Vue has three basic sections, co-located in a single .vue file:
@@ -61,3 +61,8 @@ If 'scoped' is applied, css will only apply to this component; otherwise it is g
 ```javascript
 </style>
 ```
+
+### Vue Directives
+Vue directives are built-in and created markup tokens that allow for action to be taken on DOM elements. Some of the built in directives are:
+
++
