@@ -20,9 +20,18 @@ module.exports = {
   ],
   speakingLessons: [
     {
+      type: 'doc',
+      id: 'speaking-lessons/speaking-fu', // string - document id
+    },
+    {
       type: 'category',
-      label: 'Lessons in Speaking',
-      items: ['speaking-lessons/getting-started']
+      label: 'Ancient Wisdom, Modern Take',
+      items: ['speaking-lessons/lessons-from-ancient-times', 'speaking-lessons/ethos', 'speaking-lessons/pathos', 'speaking-lessons/logos']
+    },
+    {
+      type: 'category',
+      label: 'Body & Mind',
+      items: ['speaking-lessons/your-feet-are-your-foundation']
     },
   ],
 };
