@@ -1,0 +1,1 @@
+Avoid Really and Very, if you can. At worst, just use the adjective once.

@@ -30,6 +30,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Interviewing',
+      items: ['speaking-lessons/interviewing-in-general', 'speaking-lessons/interviewing-for-podcasts', 'speaking-lessons/interviewing-for-jobs', 'speaking-lessons/being-the-interviewer']
+    },
+    {
+      type: 'category',
       label: 'Ancient Wisdom, Modern Take',
       items: ['speaking-lessons/lessons-from-ancient-times', 'speaking-lessons/ethos', 'speaking-lessons/pathos', 'speaking-lessons/logos']
     },
