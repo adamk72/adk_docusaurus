@@ -4,6 +4,10 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+section {
+  margin-left: 1rem;
+}
+
 .heroIcon {
   height: 300px;
 }
@@ -56,8 +60,23 @@ html[data-theme='dark'] .heroBanner {
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
+}
+
+.bareTabItem,
+.featureItem {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Temporary */
+.bareTabItem {
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.bareTabFlex {
+  display: flex;
 }
 
 .featureImage {
