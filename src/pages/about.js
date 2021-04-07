@@ -48,7 +48,7 @@ const About = () => {
                         us?"
       </p>
                     <p>
-                        As such, I've moved up to Director and VP positions at various companies
+                        As such, I've moved up to Director positions at various companies
                         because that is where I can provide the greatest level of service.
                         However, I'm not afraid to dig into code, databases, or documentation
                         when necessary. Often times it's looking into the details that reveal
