@@ -3,18 +3,20 @@ title: Data Binding
 ---
 Data Binding a core feature of Vue, allowing for a developer to inject code elements directly into HTML. You bind an attribute to Vue using <em>v-bind:attribute</em> or its shortcut <em>:attribute</em>.
 ```javascript
-// one way to bind is to a variable, in this case, an object:
-<div v-bind:class="classObject"></div>
+<div v-bind:template="myTemplate"></div>
+<div :value="myNumber"></div> // shortcut version
 // where in the script section, there is:
 data () {
     return {
-        classObject: {
+        myTemplate: {
             active: true,
             'text-danger': false
-        }
+        },
+        myNumber: 0
     }
 }
 ```
+## With Class
 When using the class attribute specifically, you can add both a bound and unbound version:
 ```javascript
 <div
@@ -35,4 +37,18 @@ data () {
 ```
 Since the unbound class is applied along with the bound class, this results in a complete class being rendered as expected.
 
-For more information checkout: [Vue's Class and Style Guide](https://vuejs.org/v2/guide/class-and-style.html)
+For more information checkout: [Vue's Class and Style Guide](https://vuejs.org/v2/guide/class-and-style.html).
+## More Examples
+```javascript
+// adds or removes the disabled element base on truthiness
+<button :disabled="isButtonDisabled”>
+// displays class 'active' based truthiness
+<div :class="{ active: isActive }">
+// Sets color to whatever 'activeColor' is.
+<div :style="{ color: activeColor }">
+```
+:::tip
+
+Over time, you'll find it becomes more intuitive to simply type the short cut `:` before an attribute in component/HTML tag. Give it time!
+
+:::
