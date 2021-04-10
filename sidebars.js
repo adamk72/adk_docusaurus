@@ -11,16 +11,23 @@ module.exports = {
     { type: 'category', label: 'Information Architecture', items: ['ia/getting-started', 'ia/taxonomy'] },
 
   ],
-  vueLessons: [
+  javaScript: [
+    {
+      type: 'category',
+      label: 'General Javascript',
+      items: [
+        'js/interesting-features'
+      ],
+    },
     {
       type: 'category',
       label: 'Lessons in Vue',
-      items: ['vue-lessons/getting-started', 'vue-lessons/single-file-components', 'vue-lessons/expressions', 'vue-lessons/directives', 'vue-lessons/data-binding', 'vue-lessons/lifecycle-hooks', 'vue-lessons/list-rendering', 'vue-lessons/slots', 'vue-lessons/custom-events', 'vue-lessons/mixins']
+      items: ['js/vue-lessons/getting-started', 'js/vue-lessons/single-file-components', 'js/vue-lessons/expressions', 'js/vue-lessons/directives', 'js/vue-lessons/data-binding', 'js/vue-lessons/lifecycle-hooks', 'js/vue-lessons/list-rendering', 'js/vue-lessons/slots', 'js/vue-lessons/custom-events', 'js/vue-lessons/mixins']
     },
     {
       type: 'category',
       label: 'Lessons Learned',
-      items: ['vue-lessons/import-array-into-component']
+      items: ['js/vue-lessons/import-array-into-component']
     }
   ],
   speakingLessons: [
