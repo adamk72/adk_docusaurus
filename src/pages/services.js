@@ -31,11 +31,8 @@ export default function Services() {
         </div>
       </header> */}
       <main>
-        {/* <section> */}
-        <section className={styles.features} >
-          {/* <div className={styles.features}> */}
+        <section className={styles.tabs} >
           <Tabs
-            styles={{ color: "red" }}
             defaultValue="process"
             values={[
               { label: 'Process Improvement', value: 'process' },

@@ -6,7 +6,7 @@ import styles from '../pages/styles.module.css';
 function Feature({ imageUrl, title, description }) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
-        <div className={clsx('col col--4', styles.feature)}>
+        <div className={clsx('col col--4', styles.featureItem)}>
             {imgUrl && (
                 <div className="text--center">
                     <img className={styles.featureImage} src={imgUrl} alt={title} />
