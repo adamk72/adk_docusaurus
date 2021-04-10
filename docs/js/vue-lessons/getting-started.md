@@ -1,5 +1,5 @@
 ---
-title: What This is About
+title: A Background in Vue 
 slug: /vue-lessons
 ---
 
@@ -12,7 +12,7 @@ Come the Covid-19 pandemic, I decided to get back into the programming game, and
 
 I also discovered React, Vue, and Angular. A friend got me into React, which I love and I got quickly acquainted and up to speed on that participating in startup that used a React frontend and a Django backend.
 
-Then another friend got me onto Vue, and I like as much as I like React. I've decided that this time around, I'm going to put my education to paper (as it were) so that other people can benefit from what I've learned on this journey
+Then another friend got me onto Vue, and I like as much as I like React (though I really love React's hooks). I've decided that this time around, I'm going to put my education to paper (as it were) so that other people can benefit from what I've learned on this journey
 
 ## Assumptions
 
@@ -43,9 +43,4 @@ I hope I learn a lot and I hope you enjoy and learn a lot as well.
 
 
 ## Debugging Issues
-I'll put major issues I encounter here.
-:::caution Package Managers
-
-As with many programs, you can use either Npm or Yarn for package management. If you're having weird issues, makes sure you only have one lock file, either for yarn or npm, but not both.
-
-:::
+I'll put major Vue-specific issues I encounter here. You can find more on Javascript in general at [Debugging Tips](js/debugging-tips.md).

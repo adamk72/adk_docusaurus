@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'General Javascript',
       items: [
-        'js/interesting-features'
+        'js/interesting-features', 'js/debugging-tips'
       ],
     },
     {
@@ -24,11 +24,6 @@ module.exports = {
       label: 'Lessons in Vue',
       items: ['js/vue-lessons/getting-started', 'js/vue-lessons/single-file-components', 'js/vue-lessons/expressions', 'js/vue-lessons/directives', 'js/vue-lessons/data-binding', 'js/vue-lessons/lifecycle-hooks', 'js/vue-lessons/list-rendering', 'js/vue-lessons/slots', 'js/vue-lessons/custom-events', 'js/vue-lessons/mixins']
     },
-    {
-      type: 'category',
-      label: 'Lessons Learned',
-      items: ['js/vue-lessons/import-array-into-component']
-    }
   ],
   speakingLessons: [
     {
