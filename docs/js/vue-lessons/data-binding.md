@@ -39,6 +39,7 @@ Since the unbound class is applied along with the bound class, this results in a
 
 For more information checkout: [Vue's Class and Style Guide](https://vuejs.org/v2/guide/class-and-style.html).
 ## More Examples
+This type of binding is how `props` are passed.
 ```javascript
 // adds or removes the disabled element base on truthiness
 <button :disabled="isButtonDisabled”>
