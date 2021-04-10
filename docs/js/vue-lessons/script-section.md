@@ -6,8 +6,9 @@ I didn't hit everything. Details here at [Vuejs.org](https://012.vuejs.org/api/o
 ## Data, Assets, and Others 
 ```javascript
 <script>
-/* Imports go at the top.
-    Components need to be declared in the right section for use in the <template> area.
+/*  Imports go at the top.
+    Components need to be declared in the `components:`
+    for use in the <template> area.
 */
 import from '../ThingToImport'
 
