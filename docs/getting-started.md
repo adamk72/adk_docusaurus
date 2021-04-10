@@ -8,7 +8,7 @@ My goal is two fold
 1) To improve the system so that the leadership can focus on leading and growing the company rather than dealing with the vagaries of day-to-day fires.
 2) With the improved system, allow companies to be able to flex-hire -- that is, have the band-width to bring on highly skilled workers for short term projects as well as take the time to find and hire the best workers on your own schedule.
 
-Here's the deal with a well architechted system and accompanying cultural shift -- it is more attractive to work for a company that that has its shit together than it is to not.
+Here's the deal with a well architected system and accompanying cultural shift -- it is more attractive to work for a company that that has its shit together than it is to not.
 
 It's more attractive to fund or buy into a company that is running smoothly.
 
