@@ -36,6 +36,9 @@ console.assert(a === 2, "a is not 2!)
 ### `console.table()`
 Prints out a table-form of an object in the debugger. If it can. 🤔
 
+### `console.dir()`
+Displays an interactive list of properties.
+
 ## Non-JS, but Important
 :::caution Package Managers
 

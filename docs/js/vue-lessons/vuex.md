@@ -74,8 +74,7 @@ $store.commit({
 $store.dispatch('changeMyThing')
 ```
 
-### `mapGetters`
-### `mapActions`
+### `mapGetters`/`mapActions`
 Full of computed properties which point to their respective getters. Useful for saving some effort.
 
 `mapGetters` is applied in the `methods:` section; `mapActions` is applied in the computed section;

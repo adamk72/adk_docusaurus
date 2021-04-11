@@ -1,14 +1,14 @@
 ---
 title: Slots
 ---
-## Slots
+## Regular Slots
 
 
 
 ## Scoped Slots
 Allows you to pass through HTML/Components, as well as use functions from the child.
 
-Accessing Props:
+### Accessing Props
 ```javascript
 // Child: ContactList
 <slot :contact="contact" >
@@ -30,4 +30,30 @@ Accessing Props:
             {{ contact.name }}
         </a>
 </contact-list>
+```
+
+### Returning a Function
+```javascript
+
+
+
+
+```
+
+## Function Props
+(not really a slot thing, but parallel thought process)
+```javascript
+// Parent:
+<PowerUp :power-up="(power) => power.activate" />
+
+// Child:
+// template
+<div class="font-bold">
+    {{ powerUp(power) }}
+</div>
+// default
+props: ['powerUp']
+data() {
+    return { powers: [], }
+}
 ```
