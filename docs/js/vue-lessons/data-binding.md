@@ -2,6 +2,10 @@
 title: Data Binding
 ---
 Data Binding a core feature of Vue, allowing for a developer to inject code elements directly into HTML. You bind an attribute to Vue using <em>v-bind:attribute</em> or its shortcut <em>:attribute</em>.
+
+One way to think of data binding is that it "converts" a string into something else; more to the point, it changes the context of what we normally think of as a string to variable that is located in the `<script>` tag section. The variable could be a number, an object, or an actual string (which you can change programmatically).
+
+## Example
 ```javascript
 <div v-bind:template="myTemplate"></div>
 <div :value="myNumber"></div> // shortcut version
