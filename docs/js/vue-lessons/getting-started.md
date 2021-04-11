@@ -1,19 +1,8 @@
 ---
-title: A Background in Vue 
+title: Lessing in Vue
 slug: /vue-lessons
 ---
-
-## How I got here
-I'm relatively new to Vue. I've been programming for years with C/C++/Objective-C and a host of other languages.
-
-Then I took a break from coding, doing a lot of non-tech stuff along with some technical project management.
-
-Come the Covid-19 pandemic, I decided to get back into the programming game, and I started easy, with Javascript, a language I was familiar with from the old days, but had changed significantly over years.
-
-I also discovered React, Vue, and Angular. A friend got me into React, which I love and I got quickly acquainted and up to speed on that participating in startup that used a React frontend and a Django backend.
-
-Then another friend got me onto Vue, and I like as much as I like React (though I really love React's hooks). I've decided that this time around, I'm going to put my education to paper (as it were) so that other people can benefit from what I've learned on this journey
-
+This is my guide to Vue. I've tried to keep it simple so that I can skim through it easily. I hope it serves you well.
 ## Assumptions
 
 This won't be beginner friendly, per se. I'm creating this site mostly as reference that I'm familiar with and can easily get to where I need to be. Also, beware of errors. I don't necessarily check what I input.
