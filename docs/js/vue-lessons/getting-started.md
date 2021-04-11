@@ -1,5 +1,5 @@
 ---
-title: Lessing in Vue
+title: Lessons in Vue
 slug: /vue-lessons
 ---
 This is my guide to Vue. I've tried to keep it simple so that I can skim through it easily. I hope it serves you well.
