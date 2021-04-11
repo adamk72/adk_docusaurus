@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="abridged-resume">Abridged Resume</h1>
+<h2 id="aktarytech--web-and-crypto-software-development">AktaryTech ~ Web and Crypto Software Development</h2>
+<h3 id="project-management-consultant">Project Management Consultant</h3>
+<p>April 2021 - Present @ <em>Austin, TX</em></p>
+<ul>
+<li>Providing Agile/Scrum Master services.</li>
+<li>Providing operational process improvement services.</li>
+</ul>
+<hr>
+<h2 id="cesco-magnetics--food-safety-product-manufacturing">CESCO Magnetics ~ Food Safety Product Manufacturing</h2>
+<h3 id="erp-solutions-consultant">ERP Solutions Consultant</h3>
+<p>Dec 2020 – Present @ <em>Georgetown, TX</em></p>
+<ul>
+<li>Implementing inventory migration program from spreadsheets and Access to Global Shop Solutions ERP.</li>
+<li>Establish best practices for use of BOMs and routers on the shop floor, in office, and with sales.</li>
+<li>Eliminate tedious steps in quality assurance certification process.</li>
+<li>Provide data analysis of various business functions including inventory tracking, order processing, and manufacturing steps.</li>
+</ul>
+<hr>
+<h2 id="axon-collective--technical-consulting">Axon Collective ~ Technical Consulting</h2>
+<h3 id="process-improvement-and-reactvue-frontend-development">Process Improvement and React/Vue Frontend Development</h3>
+<p>Apr 2020 – Present @ <em>Austin, TX</em></p>
+<ul>
+<li>Provide project operations and management services.</li>
+<li>Provide Javascript/React/Vue, Node, and Django software development services.</li>
+</ul>
+<hr>
+<h2 id="digital-turbine--mobile-application-marketing">Digital Turbine ~ Mobile Application Marketing</h2>
+<h3 id="director-of-it-and-business-operations-manager">Director of IT and Business Operations Manager</h3>
+<p>Oct 2014 – March 2015 @ <em>Austin, TX</em></p>
+<ul>
+<li>Found and solved many weak process points through root cause analysis; provided technical risk reviews for cloud and client services.</li>
+<li>Managed transition of the company’s primary product from IPv4 systems to support IPv6 on Amazon AWS EC2 &amp; ELB instances.</li>
+<li>Automated the generation of product performance reports, reducing processing time from hours to minutes and providing deeper report details.</li>
+</ul>
+<hr>
+<h2 id="intel-corporation--semiconductor-manufacturing">Intel Corporation ~ Semiconductor Manufacturing</h2>
+<h3 id="operations-program-manager">Operations Program Manager</h3>
+<p>Aug 2011 – Oct 2014 @ <em>Hillsboro, OR</em></p>
+<ul>
+<li>Headed review committee to determine DevOps and application lifecycle systems solutions for the newly formed department.</li>
+<li>System included project management, continuous integration and testing, and policies for data migration, security, backup and recovery solutions.</li>
+<li>Sourced, reviewed and provided detailed analysis of contracted software components to ensure compatibility and overall usability by business unit.</li>
+</ul>
+<hr>
+<h2 id="viva-vision-inc--mobile-entertainment-software">Viva! Vision, Inc. ~ Mobile Entertainment Software</h2>
+<h3 id="director-of-software-development--it-operations">Director of Software Development &amp; IT Operations</h3>
+<p>Dec 2005 - Sep 2010 @ <em>San Diego, CA</em></p>
+<ul>
+<li>Improved client-server connection by eliminating a number of laborious manual steps; a detailed performance analysis of software, systems, and user experience led to an extensive refactoring program that automated many processes, freeing up time for content creators and software developers alike.</li>
+<li>Increased revenue by optimizing the software development build cycle, creating quick product turnarounds and more sales opportunities.</li>
+<li>Architected build configuration system allowing for dynamic device porting (BREW/C++ &amp; J2ME/JAVA), irrespective of feature phone type.</li>
+</ul>
+<hr>
+<h2 id="kyocera-wireless-corp--mobile-phone-manufacturing">Kyocera Wireless Corp. ~ Mobile Phone Manufacturing</h2>
+<h3 id="sr-software-engineer-lead">Sr. Software Engineer Lead</h3>
+<p>Feb 2003 - Dec 2005 @ <em>San Diego, CA</em></p>
+<ul>
+<li>Developed reusable UI main screen and menu systems in C and C++ for features phones; involved design team to ensure future roadmap compliance.</li>
+<li>Provided detailed analyses of build times and the impact on productivity; used results to pinpoint key areas to reduce raw build from 4 hours to 30 minutes through code refactoring and dependency fixes.</li>
+<li>Managed joint quality and user experience testing committee tasked with finding and implementing upfront testing strategies.</li>
+<li>Part of the hiring committee tasked with ramping up the software team to support a large scale growth product development.</li>
+</ul>
+<hr>
+<h2 id="qualcomm-inc--wireless-telecommunications">Qualcomm, Inc. ~ Wireless Telecommunications</h2>
+<h3 id="software-engineer-program-manager-sales-engineering-customer-care-tech-lead">Software Engineer, Program Manager, Sales Engineering, Customer Care Tech Lead</h3>
+<p>Feb 1997 - Feb 2003 @ <em>San Diego, CA</em></p>
+<ul>
+<li>Developed UI for Palm based smartphone line, coding in C and Palm’s APIs.</li>
+<li>Created a program for a full-scale, iterative product life cycle, replacing the legacy ad-hoc, semi-waterfall system, by working with partners from customer care, human factors, quality assurance, software development, and manufacturing to ensure company wide acceptance and implementation.</li>
+<li>Reduced product defect reporting effort from 8 hours (and growing) per reporter to less than 30 minutes (fixed) by creating a more sophisticated, automated analysis and reporting spreadsheet system.</li>
+</ul>
+<hr>
+<h2 id="cts-network-services--internet-service-provider">CTS Network Services ~ Internet Service Provider</h2>
+<h3 id="customer-support-supervisor">Customer Support Supervisor</h3>
+<p>Mar 1996 - Feb 1997 @ <em>San Diego, CA</em></p>
+<ul>
+<li>Managed customer support team.</li>
+<li>Created training courses for new customer support employees.</li>
+<li>Interfaced with network administrators to aid in debugging network issues from the customer’s point of view.</li>
+</ul>
+<hr>
+<h1 id="technical-details">Technical Details</h1>
+<h2 id="current-technical-status">Current Technical Status</h2>
+<ul>
+<li>Certified Professional Scrum Master</li>
+<li>Focused on MongoDB/Express/React/Node.js/Django web stack via online courses like Udemy and FreeCodeCamp.</li>
+<li>Udemy courses take (over 160 hours of training time):
+-- Advanced React and Redux; Modern React with Redux; The Complete React Native + Hooks Course; The Complete 2020 Web Development Bootcamp</li>
+</ul>
+<h2 id="technical-aptitudes">Technical Aptitudes</h2>
+<h3 id="product-lifecycledevop-systems">Product Lifecycle/DevOp Systems</h3>
+<ul>
+<li>Atlassian JIRA, Confluence, Stash</li>
+<li>Artifactory Binary Repository Management</li>
+<li>Jenkins and TeamCity Continuous Integration</li>
+<li>QMetry Test Management</li>
+<li>Trello and FogBugz Project Management</li>
+<li>Bugzilla Bug Tracking</li>
+</ul>
+<h3 id="codedevelopmentdebugging">Code/Development/Debugging</h3>
+<ul>
+<li>C++, C, Objective-C, Java ( J2ME), VBScript, C#/.NET</li>
+<li>Perl, awk, sed, UNIX CLI; LDAP; Bash</li>
+<li>HTML, CSS, PHP, MySQL, PostgreSQL</li>
+<li>GNU make, Ant, Git, Subversion, Perforce</li>
+<li>Visual Studio, Netbeans, Xcode, Vim, Cygwin, Wireshark, VSCode</li>
+</ul>
+
+</body>
+</html>

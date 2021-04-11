@@ -16,7 +16,7 @@ Then another friend got me onto Vue, and I like as much as I like React (though 
 
 ## Assumptions
 
-This won't be beginner friendly, per se. I'm creating this site mostly as reference that I'm familiar with and can easily get to where I need to be.
+This won't be beginner friendly, per se. I'm creating this site mostly as reference that I'm familiar with and can easily get to where I need to be. Also, beware of errors. I don't necessarily check what I input.
 
 As such, I'll be skipping the basics, like how for loops and other control features work, for instance. I'll also skip the basics of installation, since you can locate that at [Vue's website (v2)](https://vuejs.org/v2/guide/).
 
