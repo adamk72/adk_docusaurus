@@ -34,9 +34,25 @@ Allows you to pass through HTML/Components, as well as use functions from the ch
 
 ### Returning a Function
 ```javascript
+// Parent:
+/*  Note that processThing is the function
+    and it needs to wrap the place you're going
+    to use it.  */
+// Also, this assumes the default slot (v-slot:default)
+<abstractThingToDo v-slot="{ processThing }" >
+    <button
+        @startThingProcess="processThing"
+    />
+</abstractThingToDo>
 
-
-
+//Child: 
+<slot :processThing="processThing"> {{ doTheProcessDance }} />
+// or, for a renderless version, in child's <script>
+render() {
+    return this.$scopedSlots.default({
+        processThing: this.doTheProcessDance,
+    })
+},
 
 ```
 
