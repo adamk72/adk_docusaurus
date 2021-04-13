@@ -1,5 +1,5 @@
 ---
-title: Custom Events
+title: Custom Events (WIP)
 ---
 
 listen and $emit

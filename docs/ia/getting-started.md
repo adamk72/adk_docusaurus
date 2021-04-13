@@ -1,4 +1,6 @@
-
+---
+title: The Basics (WIP)
+---
 
 
 Don't discount Design -- From conversation with Stephen

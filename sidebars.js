@@ -7,7 +7,7 @@ module.exports = {
         'getting-started', 'emails', 'meetings', 'spreadsheets'
       ],
     },
-    { type: 'category', label: 'Project Management Tools', items: ['pm-tools/the-list'] },
+    { type: 'category', label: 'Project Management Tools', items: ['pm-tools/the-list', 'pm-tools/excel', 'pm-tools/emojis'] },
     { type: 'category', label: 'Information Architecture', items: ['ia/getting-started', 'ia/taxonomy'] },
 
   ],

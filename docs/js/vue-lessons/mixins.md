@@ -1,7 +1,6 @@
 ---
 title: Mixins & Filters
 ---
-
 ## Mixins
 Mixins allow for composition between components. 
 

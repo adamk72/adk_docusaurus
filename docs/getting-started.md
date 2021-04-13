@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Started (WIP)
 slug: /
 ---
 The 45/45 Rule

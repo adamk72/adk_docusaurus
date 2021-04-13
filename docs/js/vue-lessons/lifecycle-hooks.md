@@ -1,5 +1,5 @@
 ---
-title: Lifecycle Hooks
+title: Lifecycle Hooks (WIP)
 ---
 Details at [Vuejs.org](https://v3.vuejs.org/api/options-lifecycle-hooks.html)
 ## General Usage

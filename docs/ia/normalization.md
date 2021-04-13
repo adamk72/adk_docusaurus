@@ -1,5 +1,5 @@
 ---
-title: Normalization
+title: Normalization (WIP)
 ---
 
 In databases, normalization is the process by which a DB designer structures the DB in accordance to best practices, or what are known as 'normal forms.' Normal forms aid in reducing complexity, redundancy, and improving performance.
