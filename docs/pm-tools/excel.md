@@ -25,4 +25,7 @@ Application.EnableEvents = False
 ```
 That as enough to keep things updated so that other tables wouldn't freak out looking at the source data that was being cleaned up with my UDF.
 
-`Application.Volatile(true)` seems to be the big thing; I tried having the UDF take `NOW()`, but that proved very unreliable.
+`Application.Volatile(true)` seems to be the big thing; I tried having the UDF take `NOW()`, but that proved very unreliable.eby
+
+### Cells Return Zero
+One problem I find often is that an otherwise blank cell will actually return a zero value, which can throw off formulas depending on if it's expecting text or not. The fix is simple: coerce it to the format you want by using `Num+0` or `Text&""`.

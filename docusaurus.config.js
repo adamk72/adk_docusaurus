@@ -39,7 +39,7 @@ module.exports = {
         {
           label: 'Learning', position: 'left',
           items: [
-            { to: 'docs/', activeBasePath: 'docs', label: 'Knowing Better', position: 'left' },
+            { to: 'docs/', activeBasePath: 'docs', label: 'Better Knowing ', position: 'left' },
             { to: 'docs/js/', label: 'Javascript', position: 'left' },
             { to: 'docs/speaking-fu/', label: 'Speaking', position: 'left' },
           ]
