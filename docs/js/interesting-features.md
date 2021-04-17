@@ -87,7 +87,7 @@ Useful for functional program techniques where mutability is a no-no.
 ## More to keep in mind  
 
 ### `Map()`
-Keeps order of key:value pairs. [MDN][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map]
+Keeps order of key:value pairs. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 ### `Set()`
 Keeps unique values only. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
