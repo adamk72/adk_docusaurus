@@ -55,6 +55,10 @@ export default {
         concat: function(value, input) { return value + input }
         // use in <template>: {{msg | concat userInput}}
     },
+    meta: {
+        checkSomething: true
+        // use with the $router object (to.meta.checkSomething)
+    }
     /*  And still a lot more... */
 }
 ```

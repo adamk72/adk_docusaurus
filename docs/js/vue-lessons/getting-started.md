@@ -9,7 +9,7 @@ This won't be beginner friendly, per se. I'm creating this site mostly as refere
 
 As such, I'll be skipping the basics, like how for loops and other control features work, for instance. I'll also skip the basics of installation, since you can locate that at [Vue's website (v2)](https://vuejs.org/v2/guide/).
 
-Also, I'm going to skip over Vue that is instantiated as an object, like this:
+Also, I'm going to skip Vue that is instantiated as an object, like this:
 ```javascript
 var app = new Vue({
   el: '#app',
@@ -33,3 +33,38 @@ I hope I learn a lot and I hope you enjoy and learn a lot as well.
 
 ## Debugging Issues
 I'll put major Vue-specific issues I encounter here. You can find more on Javascript in general at [Debugging Tips](js/debugging-tips.md).
+
+
+#### Transitions
+The `<transition>` Vue tag expects only a single root element for a component. (or at least only one element in the DOM.)
+```javascript
+<transition>
+  <MyBaseElement />
+</transition>
+
+// elsewhere in MyBaseElement.vue...
+// Transition doesn't know which to pick
+<template>
+  <div>
+    /* some stuff */
+  </div>
+  <dialog>
+    /* some other stuff */
+  </dialog>
+</template>
+```
+
+You can move `<transition>` into the component (with some changes in logic, probably):
+```javascript
+// in MyBaseElement.vue...
+<template>
+  <div>
+    /* some stuff */
+  </div>
+  <transition>
+    <dialog>
+     /* some other stuff */
+    </dialog>
+  </transition>
+</template>
+```
