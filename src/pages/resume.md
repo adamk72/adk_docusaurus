@@ -2,11 +2,11 @@
 title: Work Experience
 slug: /resume
 ---
-# Abridged Resume 
+## Abridged Resume 
 
-## AktaryTech ~ Web and Crypto Software Development
+### AktaryTech ~ Project Management Consultant
 
-### Project Management Consultant
+#### Web and Crypto Software Development
 
 April 2021 - Present @ _Austin, TX_
 
@@ -15,9 +15,9 @@ April 2021 - Present @ _Austin, TX_
 
 ---
 
-## CESCO Magnetics ~ Food Safety Product Manufacturing 
+### CESCO Magnetics ~ ERP Solutions Consultant
 
-### ERP Solutions Consultant
+#### Food Safety Product Manufacturing
 
 Dec 2020 – Present @ _Georgetown, TX_
 
@@ -28,20 +28,19 @@ Dec 2020 – Present @ _Georgetown, TX_
 
 ---
 
-## Axon Collective ~ Technical Consulting 
-
-### Process Improvement and React/Vue Frontend Development
+### Axon Collective ~ Process Improvement and React/Vue Frontend Development
+#### Technical Consulting 
 
 Apr 2020 – Present @ _Austin, TX_
 
 - Provide project operations and management services.
-- Provide Javascript/React/Vue, Node, and Django software development services.
+- Provide Javascript/React/Vue software development services.
 
 ---
 
-## Digital Turbine ~ Mobile Application Marketing
+### Digital Turbine ~ Director of IT and Business Operations Manager
 
-### Director of IT and Business Operations Manager
+#### Mobile Application Marketing
 
 Oct 2014 – March 2015 @ _Austin, TX_
 
@@ -50,10 +49,8 @@ Oct 2014 – March 2015 @ _Austin, TX_
 - Automated the generation of product performance reports, reducing processing time from hours to minutes and providing deeper report details.
 
 ---
-
-## Intel Corporation ~ Semiconductor Manufacturing
-
-### Operations Program Manager
+### Intel Corporation ~ Operations Program Manager
+#### Semiconductor Manufacturing
 
 Aug 2011 – Oct 2014 @ _Hillsboro, OR_
 
@@ -63,9 +60,9 @@ Aug 2011 – Oct 2014 @ _Hillsboro, OR_
 
 ---
 
-## Viva! Vision, Inc. ~ Mobile Entertainment Software
+### Viva! Vision, Inc. ~ Director of Software Development & IT Operations
 
-### Director of Software Development & IT Operations
+#### Mobile Entertainment Software
 
 Dec 2005 - Sep 2010 @ _San Diego, CA_
 
@@ -74,10 +71,9 @@ Dec 2005 - Sep 2010 @ _San Diego, CA_
 - Architected build configuration system allowing for dynamic device porting (BREW/C++ & J2ME/JAVA), irrespective of feature phone type.
 
 ---
+### Kyocera Wireless Corp. ~ Sr. Software Engineer Lead (C++)
+#### Mobile Phone Manufacturing
 
-## Kyocera Wireless Corp. ~ Mobile Phone Manufacturing
-
-### Sr. Software Engineer Lead
 
 Feb 2003 - Dec 2005 @ _San Diego, CA_
 
@@ -88,9 +84,9 @@ Feb 2003 - Dec 2005 @ _San Diego, CA_
 
 ---
 
-## Qualcomm, Inc. ~ Wireless Telecommunications
+### Qualcomm, Inc. ~ Software Engineer (C/C++), Program Manager, Sales Engineering, Customer Care Tech Lead
 
-### Software Engineer, Program Manager, Sales Engineering, Customer Care Tech Lead
+#### Wireless Telecommunications
 
 Feb 1997 - Feb 2003 @ _San Diego, CA_
 
@@ -100,9 +96,9 @@ Feb 1997 - Feb 2003 @ _San Diego, CA_
 
 ---
 
-## CTS Network Services ~ Internet Service Provider
+### CTS Network Services ~ Customer Support Supervisor
+#### Internet Service Provider
 
-### Customer Support Supervisor 
 
 Mar 1996 - Feb 1997 @ _San Diego, CA_
 
@@ -112,18 +108,24 @@ Mar 1996 - Feb 1997 @ _San Diego, CA_
 
 ---
 
-# Technical Details
+## Education
 
-## Current Technical Status
+### University
 
-- Certified Professional Scrum Master
-- Focused on MongoDB/Express/React/Node.js/Django web stack via online courses like Udemy and FreeCodeCamp.
-- Udemy courses take (over 160 hours of training time):
-  -- Advanced React and Redux; Modern React with Redux; The Complete React Native + Hooks Course; The Complete 2020 Web Development Bootcamp
+- B.A. in Mathematics @ University of California | _San Diego, CA 1996_
+- B.S. in Computer Science @ Coleman University | _La Mesa, CA 1998_
 
+### Professional Development
+- Professional Scrum Master @ Scrum.org | _Austin, TX, 2020_
+- Advanced Communicator & Leadership Awards @ Toastmasters International | _TX & OR_ | 2013-Present
+- Certified Usability Analyst @ Human Factors International |  _Hillsboro, OR 2012_
+- Udemy courses take (200+ hours of training time):
+  - Advanced React and Redux &mdash; Modern React with Redux &mdash; The Complete React Native + Hooks Course &mdash; The Complete 2020 Web Development Bootcamp &mdash; Vue - The Complete Guide (w/ Router, Vuex, Composition API) &mdash; Python, JS, & React | Build a Blockchain & Cryptocurrency
+
+---
 ## Technical Aptitudes
 
-### Product Lifecycle/DevOp Systems
+#### Product Lifecycle/DevOp Systems
 
 - Atlassian JIRA, Confluence, Stash
 - Artifactory Binary Repository Management
@@ -132,7 +134,7 @@ Mar 1996 - Feb 1997 @ _San Diego, CA_
 - Trello and FogBugz Project Management
 - Bugzilla Bug Tracking
 
-### Code/Development/Debugging
+#### Code/Development/Debugging
 
 - C++, C, Objective-C, Java ( J2ME), VBScript, C#/.NET
 - Perl, awk, sed, UNIX CLI; LDAP; Bash
