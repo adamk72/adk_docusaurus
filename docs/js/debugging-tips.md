@@ -39,10 +39,6 @@ Prints out a table-form of an object in the debugger. If it can. 🤔
 ### `console.dir()`
 Displays an interactive list of properties.
 
-## CSS
-### Flex Div height -> 0 (WIP)
-The scenario is that in a `flex`, the height of the `div` (or other container) goes to zero.
-
 ## Non-JS, but Important
 :::caution Package Managers
 
