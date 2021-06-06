@@ -43,7 +43,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Body & Mind',
-      items: ['speaking-lessons/your-feet-are-your-foundation']
+      items: ['speaking-lessons/your-feet-are-your-foundation', 'speaking-lessons/speaking-in-groups']
     },
   ],
 };
