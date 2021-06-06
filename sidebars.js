@@ -3,10 +3,13 @@ module.exports = {
     {
       type: 'category',
       label: 'On Better Organizations',
-      items: [
-        'getting-started', 'emails', 'meetings', 'spreadsheets'
-      ],
+      items: [ 'getting-started', 'emails', 'meetings', 'spreadsheets' ],
     },
+    {
+      type: 'category',
+      label: 'For the Non-Technical',
+      items: [ 'non-technical-officers' ], 
+    }
     { type: 'category', label: 'Project Management Tools', items: ['pm-tools/the-list', 'pm-tools/reviews', 'pm-tools/excel', 'pm-tools/emojis'] },
     { type: 'category', label: 'Information Architecture', items: ['ia/getting-started', 'ia/taxonomy'] },
 
