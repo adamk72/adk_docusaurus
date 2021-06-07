@@ -25,31 +25,44 @@ module.exports = {
           position: 'left',
           items: [
             {
-              to: 'about', label: 'About'
+              to: 'about',
+              label: 'About',
             },
             {
-              to: 'resume', label: 'Resume'
+              to: 'resume',
+              label: 'Resume',
             },
             {
-              to: 'services', label: 'Services'
+              to: 'services',
+              label: 'Services',
             },
-
-          ]
+          ],
         },
         {
-          label: 'Learning', position: 'left',
+          label: 'Learning',
+          position: 'left',
           items: [
-            { to: 'docs/', activeBasePath: 'docs', label: 'Better Knowing ', position: 'left' },
-            { to: 'docs/js/', label: 'Javascript', position: 'left' },
+            {
+              to: 'docs/',
+              activeBasePath: 'docs',
+              label: 'Better Knowing ',
+              position: 'left',
+            },
+            { to: 'docs/sw/', label: 'Software', position: 'left' },
             { to: 'docs/speaking-fu/', label: 'Speaking', position: 'left' },
-          ]
+          ],
         },
         {
-          label: 'Blogs', position: 'left',
+          label: 'Blogs',
+          position: 'left',
           items: [
             { to: 'blog', label: 'PM, Ops, Tech', position: 'left' },
-            { to: 'speaking-blog/', label: 'Leadership & Speaking', position: 'left' },
-          ]
+            {
+              to: 'speaking-blog/',
+              label: 'Leadership & Speaking',
+              position: 'left',
+            },
+          ],
         },
 
         {
@@ -84,7 +97,7 @@ module.exports = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/in/adamkecskes/'
+              href: 'https://linkedin.com/in/adamkecskes/',
             },
             {
               label: 'GitHub',
@@ -103,16 +116,23 @@ module.exports = {
         {
           title: 'Credits',
           items: [
-            { label: 'Freepik Icons', href: 'https://www.flaticon.com/authors/freepik' },
-            { label: 'Eucalyp Icons', href: 'https://creativemarket.com/eucalyp' },
-            { label: 'PIRO4D', href: "https://pixabay.com/users/piro4d-2707530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2534484" },
+            {
+              label: 'Freepik Icons',
+              href: 'https://www.flaticon.com/authors/freepik',
+            },
+            {
+              label: 'Eucalyp Icons',
+              href: 'https://creativemarket.com/eucalyp',
+            },
+            {
+              label: 'PIRO4D',
+              href: 'https://pixabay.com/users/piro4d-2707530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2534484',
+            },
           ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Adam Kecskes Consulting`,
-
     },
-
   },
   presets: [
     [
@@ -120,21 +140,22 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/adamk72/adk_docusaurus/tree/master/',
+          editUrl: 'https://github.com/adamk72/adk_docusaurus/tree/master/',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/adamk72/adk_docusaurus/tree/master/',
+          editUrl: 'https://github.com/adamk72/adk_docusaurus/tree/master/',
         },
         speakingBlog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/adamk72/adk_docusaurus/tree/master/',
+          editUrl: 'https://github.com/adamk72/adk_docusaurus/tree/master/',
         },
         theme: {
-          customCss: [require.resolve('./src/css/decorators.scss'), require.resolve('./src/css/custom.css'), require.resolve('./src/css/grids.css')]
+          customCss: [
+            require.resolve('./src/css/decorators.scss'),
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/grids.css'),
+          ],
         },
       },
     ],
