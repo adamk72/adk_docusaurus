@@ -1,5 +1,6 @@
 ---
 title: Founders, Officers, and Hiring Managers
+slug: /
 ---
 
 There’s a rumor goin’ round that all one has to do is hire a couple of software developers, a.k.a “coders” and presto, the dreams of garage to penthouse is suddenly fulfilled.

@@ -1,10 +1,10 @@
 module.exports = {
   docs: [
-    {
-      type: 'category',
-      label: 'On Better Organizations',
-      items: ['getting-started', 'emails', 'meetings', 'spreadsheets'],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'On Better Organizations',
+    //   items: ['getting-started', 'emails', 'meetings', 'spreadsheets'],
+    // },
     {
       type: 'category',
       label: 'For the Non-Technical',
@@ -20,11 +20,11 @@ module.exports = {
         'pm-tools/emojis',
       ],
     },
-    {
-      type: 'category',
-      label: 'Information Architecture',
-      items: ['ia/getting-started', 'ia/taxonomy'],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Information Architecture',
+    //   items: ['ia/getting-started', 'ia/taxonomy'],
+    // },
   ],
   software: [
     {
@@ -56,7 +56,7 @@ module.exports = {
         'vue-lessons/lifecycle-hooks',
         'vue-lessons/list-rendering',
         'vue-lessons/slots',
-        'vue-lessons/custom-events',
+        // 'vue-lessons/custom-events',
         'vue-lessons/mixins',
         'vue-lessons/router',
         'vue-lessons/vuex',
@@ -72,28 +72,28 @@ module.exports = {
       type: 'category',
       label: 'Interviewing',
       items: [
-        'speaking-lessons/interviewing-in-general',
+        // 'speaking-lessons/interviewing-in-general',
         'speaking-lessons/interviewing-for-podcasts',
-        'speaking-lessons/interviewing-for-jobs',
-        'speaking-lessons/being-the-interviewer',
+        // 'speaking-lessons/interviewing-for-jobs',
+        // 'speaking-lessons/being-the-interviewer',
       ],
     },
-    {
-      type: 'category',
-      label: 'Ancient Wisdom, Modern Take',
-      items: [
-        'speaking-lessons/lessons-from-ancient-times',
-        'speaking-lessons/ethos',
-        'speaking-lessons/pathos',
-        'speaking-lessons/logos',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Ancient Wisdom, Modern Take',
+    //   items: [
+    //     'speaking-lessons/lessons-from-ancient-times',
+    //     'speaking-lessons/ethos',
+    //     'speaking-lessons/pathos',
+    //     'speaking-lessons/logos',
+    //   ],
+    // },
     {
       type: 'category',
       label: 'Body & Mind',
       items: [
-        'speaking-lessons/your-feet-are-your-foundation',
-        'speaking-lessons/speaking-in-groups',
+        // 'speaking-lessons/your-feet-are-your-foundation',
+        // 'speaking-lessons/speaking-in-groups',
         'speaking-lessons/factoids-dont-matter',
       ],
     },

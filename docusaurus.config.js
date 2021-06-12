@@ -45,7 +45,7 @@ module.exports = {
             {
               to: 'docs/',
               activeBasePath: 'docs',
-              label: 'Better Knowing ',
+              label: 'Organizations',
               position: 'left',
             },
             { to: 'docs/sw/', label: 'Software', position: 'left' },
