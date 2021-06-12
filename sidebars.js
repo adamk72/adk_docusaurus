@@ -30,7 +30,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Best Practices',
-      items: ['sw/snapshot-mindset', 'sw/using-jira', 'sw/using-git'],
+      items: [
+        'sw/snapshot-mindset',
+        'sw/using-jira',
+        'sw/jira-on-slack',
+        'sw/using-git',
+        'sw/git-on-slack',
+      ],
     },
     {
       type: 'category',

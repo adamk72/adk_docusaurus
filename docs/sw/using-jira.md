@@ -46,7 +46,7 @@ If you're developer, pretty much everything you do needs to be recorded in Jira.
 
 However, there are plenty of things that don't need to be recorded as Jira issues. You may refer to these items within an existing Jira issue, but you don't need to create a unique issue for them:
 
-Jira is not:
+### Jira is not:
 
 - A glorified to-do list.
 - A reminder system
@@ -58,57 +58,3 @@ So these are the types of things you don't need to put into Jira:
 - Tasks as reminders for meetings - Use a calendar or the /remind feature of Slack.
 - Tasks to write documentation - instead, make a note that a task isn't complete until documentation is finished (or create a sub-task).
 - Generalized thoughts about what you might want to do. If it isn't distinctly part of the project, don't add it to Jira.
-
-# Jira on Slack
-
-Using Jira on Slack is trivial and arguably a better way to interface with Jira for basic and quick day-to-day activities such as updating and creating ad-hoc issues. It is not suitable for managing scums and making large changes.
-
-## Setup
-
-Start by adding the Jira app to Slack:
-
-1. Scroll to the bottom of the left sidebar to the Apps section.
-2. Click on the + Add Apps and look for Jira Cloud. That should do the trick!
-3. Once installed, you can do much of the work from the new Jira app. However, the real power is in attaching a specific project to a specific Slack channel.
-4. Go to the channel and type: /jira connect
-5. Select a project.
-   Done!
-
-Once a project is associated to a channel, you access the Jira project via slash command. You can start by typing: `/jira help`. The most powerful things you can do are create and get information on issues.
-
-## Create
-
-- Command: `/jira create Summary`
-- Example: `/jira create As a user, I'd like to be able to choose the color.`
-
-Creating an issue will bring up a modal dialog for you to complete if you would like to add additional details. The default issue type will depend on the project, but will typically be Task or Story.
-
-## Get Information
-
-- Command: `/jira ISSUE_KEY`
-- Example: `/jira WEB-30`
-
-This will bring up a Slack comment that is visible only to you. From there, you can make a Comment, Watch, Assign, or Transition the issue.
-
-##Tips to get the most out of Jira on Slack
-
-- Comment often. If a discussion on Slack has details worth noting, such as code suggestions, links, or actions taken (or that need to be taken), add a comment.
-- When creating an issue from Jira, don't worry if it's a possible duplicate. Simply create it. If it is a duplicate, it can be set as Resolved-> Duplicate.
-- New Jira issues should be atomic; that is, they should really be about one single task, element, concept, or story. Even if the code might be the same, but it applies to different sections of the UI, for example, make two separate issues in that case.
-
-# Jira on GitHub
-
-Jira can connect with GitHub so that changes made on the git command line and that are pushed to a repository can be captured in specific issues. A lot of functionality of Jira can happen on the command line, freeing you from having to bounce back and forth between Jira, GitHub, and the git command line.
-
-## Smart Commits
-
-Smart commits are how a git commit is linked to a particular Jira issue.
-
-- Syntax: `<ignored text> <ISSUE_KEY> <ignored text> #<COMMAND> <optional COMMAND_ARGUMENTS>`
-- Example: git commit -a -m"JRA-090 #close Fixed this today"
-  Where `#<COMMAND>` can be one of the following:
-- comment
-- `<transition name>`
-- time
-
-You can find more at Atlassian's document site: [Smart Commits](https://confluence.atlassian.com/fisheye/using-smart-commits-960155400.html).
