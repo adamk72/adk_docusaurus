@@ -94,6 +94,7 @@ module.exports = {
       items: [
         'speaking-lessons/your-feet-are-your-foundation',
         'speaking-lessons/speaking-in-groups',
+        'speaking-lessons/factoids-dont-matter',
       ],
     },
   ],
