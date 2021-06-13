@@ -125,7 +125,7 @@ Aside from the work assuring that the workflow is pleasurable to work with, the 
 
 Keep this all in mind when the statement of work is presented to you, as well as when trying to plan for the costs and schedules of your project.
 
-### Concluding Thoughts
+## Concluding Thoughts
 
 There's a lot to ponder when hiring a development shop for the project of your dreams. Costs will likely run higher than you think, partly because of the persistent myth of the Fiverr-hired cowboy coder whipping out an application in one day on the cheap which highlights the reality of software development: In this modern age, coding is easy to learn, but it's incredibly difficult to execute well, especially at the enterprise scale.
 
