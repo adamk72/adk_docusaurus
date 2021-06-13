@@ -8,7 +8,7 @@ module.exports = {
     {
       type: 'category',
       label: 'For the Non-Technical',
-      items: ['pm-tools/non-technical-officers'],
+      items: ['pm-tools/shopping-for-a-dev-shop'],
     },
     {
       type: 'category',

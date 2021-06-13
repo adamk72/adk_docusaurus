@@ -1,5 +1,5 @@
 ---
-title: Hiring a Development Shop
+title: Shopping for a Dev Shop
 slug: /
 ---
 
