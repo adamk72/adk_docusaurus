@@ -95,7 +95,7 @@ The big questions have been addressed already: Cost and Time. If those don't sca
 
 ### Other things to listen for:
 
-If you don't hear any of these words mentioned, don't panic. The dev shop may not want to burden with too much techno-babble. If you do hear these words, then at least on the surface, they _might_ know what they're talking about:
+If you don't hear any of these words mentioned, don't panic. The dev shop may not want to burden you with too much techno-babble. If you do hear these words, then at least on the surface, they _might_ know what they're talking about:
 
 <blockquote>user interface, user experience, Google Cloud Platform (GCP), Amazon Web Services (AWS), Javascript, Scrum, Agile, Kanban, Jira, Microsoft Teams, BitBucket, Git, GitHub, repository, codebase, object-oriented, procedural, functional, lambda, elastic, application program interfaces (APIs), web sockets, Ajax, Node JS, React JS/Native, Angular JS, Vue JS, PHP, Python, Django... and so, so much more</blockquote>
 
@@ -117,7 +117,7 @@ The shop should be fairly specific in what they will and _won't_ do. What they w
 
 The statement of work will also clearly state the deliverables to be handed over at the end of the project. This should include at the very least the code base, documentation, and if applicable items like configuration and security files. Again, the specifics should be enough, but not overly detailed -- no company can tell you everything up front; if they could, they should charge you a flat rate for cost.
 
-### Notes on complexity
+### Notes on Complexity
 
 Software development has gotten easier over the decades, but in exchange, the problems being solved are dramatically more complex. Most people think that an application, be it Gmail or Netflix on the web, or Excel and Word on the desktop consists of just the graphic and interface they see and interact with on a daily basis.
 
