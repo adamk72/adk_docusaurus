@@ -1,13 +1,14 @@
 ---
-title: "How to Persuade: Credibility"
+title: 'How to Persuade: Credibility'
 author: Adam Kecskes
-author_title: Speaking & Leadership Advisor 
+author_title: Speaking & Leadership Advisor
 author_url: https://kecskes.net
 author_image_url: https://www.gravatar.com/avatar/a4eec2622d18594aea04310ae3ec577c
 tags: [attitude, credibility, ethos]
 date: 2018-11-28 21:54:39
 category: [Speaking]
 ---
+
 <p><strong>Credibility</strong> is the character or the perception of authority, credibility or experience of the speaker. It is called <em>Ethos</em> by the ancient Greeks.</p>
 <p>Examples of Credibility from famous speeches:</p>
 <blockquote>
