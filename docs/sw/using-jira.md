@@ -17,6 +17,27 @@ Jira is a powerful and highly customizable software project management tool. Bec
 5. Anticipate questions and answer them in advance in the issue.
 6. Add comments, screenshots, and document and web links like crazy.
 
+## What doesn't need to go in Jira
+
+If you're developer, pretty much everything you do needs to be recorded in Jira. If you're working, you're working on a Jira issue, not some abstracted thought.
+
+However, there are plenty of things that don't need to be recorded as Jira issues. You may refer to these items within an existing Jira issue, but you don't need to create a unique issue for them:
+
+### Jira is not:
+
+- A glorified to-do list.
+- A reminder system
+- A calendar
+- A time-tracking system (though it does track the time it takes you to accomplish your tasks)
+
+So these are the types of things you don't need to put into Jira:
+
+- Tasks as reminders for meetings - Use a calendar or the /remind feature of Slack.
+- Tasks to write documentation - instead, make a note that a task isn't complete until documentation is finished (or create a sub-task).
+- Generalized thoughts about what you might want to do. If it isn't distinctly part of the project, don't add it to Jira.
+
+# Issue Types
+
 ## Tasks & Sub-tasks
 
 Task-type issues should be atomic and single purpose. In terms of code, a task should be able to be made with a single commit.
@@ -40,21 +61,6 @@ When a bug is generated, the description field should contain enough information
 - Under what conditions was the bug found? (e.g, which browser, OS, system, etc).
 - What was expected to happen?
 
-## What doesn't need to go in Jira
+# Labels
 
-If you're developer, pretty much everything you do needs to be recorded in Jira. If you're working, you're working on a Jira issue, not some abstracted thought.
-
-However, there are plenty of things that don't need to be recorded as Jira issues. You may refer to these items within an existing Jira issue, but you don't need to create a unique issue for them:
-
-### Jira is not:
-
-- A glorified to-do list.
-- A reminder system
-- A calendar
-- A time-tracking system (though it does track the time it takes you to accomplish your tasks)
-
-So these are the types of things you don't need to put into Jira:
-
-- Tasks as reminders for meetings - Use a calendar or the /remind feature of Slack.
-- Tasks to write documentation - instead, make a note that a task isn't complete until documentation is finished (or create a sub-task).
-- Generalized thoughts about what you might want to do. If it isn't distinctly part of the project, don't add it to Jira.
+Use labels as a way to categorize issues that share common features across all projects. For instance, `documentation` is a good label to use if the issue generated an artifact such as a report, status, or other written asset (make sure to add a web link in the issue as well).
