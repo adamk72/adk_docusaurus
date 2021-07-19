@@ -24,9 +24,22 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: url(../../static/img/schrecksee.jpg);
-  background-size: cover;
-  opacity: 0.5;
+  /* background-image: url(../../static/img/schrecksee.jpg);
+  background-size: cover; 
+  opacity: 0.5; */
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffffff,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffffff 10%,
+    #4286f4 50%,
+    #373b44 90%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 html[data-theme='dark'] .heroBanner {
