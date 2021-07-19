@@ -12,7 +12,9 @@ category: [Speaking]
 <p>When you are standing in front of an audience, think about your feet.</p>
 <p>Yes, your feet.</p>
 <p>Whenever you forget about your feet, your legs and your arms, they will start to speak for you. And sometimes they will say some weird things.</p>
+
 <!--truncate-->
+
 <p>Some of the things they will say will include:</p>
 <p><em>I forgot what I was going to say.</em></p>
 <p><em>I'm nervous.</em></p>

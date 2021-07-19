@@ -10,7 +10,9 @@ category: [Speaking]
 ---
 
 <p><strong>Credibility</strong> is the character or the perception of authority, credibility or experience of the speaker. It is called <em>Ethos</em> by the ancient Greeks.</p>
+
 <!--truncate-->
+
 <p>Examples of Credibility from famous speeches:</p>
 <blockquote>
 <p>"I’m pretty sure none of this would have happened if I hadn’t been fired from Apple. It was awful tasting medicine, but I guess the patient needed it. Sometimes life hits you in the head with a brick. Don’t lose faith. I’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. "</p>

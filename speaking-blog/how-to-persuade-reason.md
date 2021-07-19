@@ -10,7 +10,9 @@ category: [Speaking]
 ---
 
 <p><strong>Reason</strong> is the form of logic and rationality or evidence offered to the audience. <em>Logos</em> is Aristotle's word, the root of the word 'logic.'</p>
+
 <!--truncate-->
+
 <p>Examples of Reason from famous speeches:</p>
 <blockquote>
 <p>"Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves. The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand."</p>

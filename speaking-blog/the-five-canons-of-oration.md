@@ -10,7 +10,9 @@ category: [Speaking]
 ---
 
 <p>The ancient Greeks came up with a framework to define how speeches are to be written, consisting of five canons: Inventio, Disposito, Elocutio, Memoria, Actio.</p>
+
 <!--truncate-->
+
 <ul>
 <li>"<strong>Inventio</strong>" — Thoughts, development, research and other less tangible ideas that form the seed of a speech. Even pre-writing is included here.</li>
 <li>"<strong>Disposito</strong>" — The structure of a speech, in terms of how it is written out and where various elements such as body language or vocal variety will be used.</li>
