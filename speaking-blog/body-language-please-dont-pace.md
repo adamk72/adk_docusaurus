@@ -1,5 +1,5 @@
 ---
-slug: body-language-please-dont-pace.
+slug: body-language-please-dont-pace
 title: Please Don't Pace
 author: Adam Kecskes
 author_title: Speaking & Leadership Advisor
