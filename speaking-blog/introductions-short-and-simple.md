@@ -16,7 +16,7 @@ category: [Speaking]
 
 <p>In these short format informational talks, I'd recommend that the intro be kept short and sweet. Do two things:</p>
 <ol>
-<li>Put out a simplified version of your credentials. Yes, you might be a doctor with a lot of letters after your name, and board certified this and that, but most audience will take (at face value, sadly) your most basic information at face value. If you claim to be an expert, great! Just make the claim and at most mention that you've done a lot of research in the field you are about to talk about.</li>
+<li>Put out a simplified version of your credentials. Yes, you might be a doctor with a lot of letters after your name, and board certified this and that, but most audience will take your most basic information at face value. If you claim to be an expert, great! Just make the claim and at most mention that you've done a lot of research in the field you are about to talk about.</li>
 <li>Then introduce your audience to the field. Your expertise will quickly show up in the 30 seconds to a minute that you are describing the topic. Any more than that, and it might be construed by the audience that maybe, just maybe, you don't know what you're talking about.</li>
 </ol>
 <p>It's not that you <em>don't</em> know what your talking about. It's more that your rambling and you've put to much cognitive load onto your audience. They've drifted and if the intro goes to long, or the main content doesn't back up their expectations from your intro, you've failed in delivering your message.</p>
