@@ -1,5 +1,4 @@
 ---
-slug: body-language-please-dont-pace
 title: Please Don't Pace
 author: Adam Kecskes
 author_title: Speaking & Leadership Advisor
@@ -12,7 +11,7 @@ category: [Speaking]
 
 <p>There's a common activity I see on stage that I feel needs to be addressed and nipped off at the ankles.</p>
 <p>I call it "The Pace."</p>
-
+<!--truncate-->
 <p>This is that habit that many — arguably <em>most</em> —  speakers have of pacing back and forth across the stage. Many folks, such as executives, coaches, and sales people can deliver a sense of authority and magnitude even as they pace. It seems like there's nothing really wrong with this, right? As long as the rest of the delivery works?</p>
 <p>Sadly, there's quite a bit wrong with "The Pace." There are three points in particular worth expositing:</p>
 <ol>

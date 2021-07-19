@@ -1,7 +1,7 @@
 ---
-title: "How to Persuade: Empathy"
+title: 'How to Persuade: Empathy'
 author: Adam Kecskes
-author_title: Speaking & Leadership Advisor 
+author_title: Speaking & Leadership Advisor
 author_url: https://kecskes.net
 author_image_url: https://www.gravatar.com/avatar/a4eec2622d18594aea04310ae3ec577c
 tags: [body, attitude, empathy, pathos]
@@ -10,7 +10,7 @@ category: [Speaking]
 ---
 
 <p><strong>Empathy</strong> is the emotional connection a speaker makes with the audience. The ancient Greeks called it <em>Pathos</em>.</p>
-
+<!--truncate-->
 <p>Examples of Empathy from famous speeches:</p>
 <blockquote>
 <p>"I have a dream that one day this nation will rise up, live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'"</p>

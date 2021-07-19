@@ -1,6 +1,5 @@
 ---
-slug: mental-cogs
-title: Cognitive Cogs - the Mechanisms of Attention
+title: 'Cognitive Cogs - the Mechanisms of Attention'
 author: Adam Kecskes
 author_title: Speaking & Leadership Advisor
 author_url: https://kecskes.net
@@ -12,7 +11,7 @@ category: [Quotes]
 
 <p><dfn>Cognition</dfn> is, per Google: "the mental action or process of acquiring knowledge and understanding through thought, experience, and the senses."</p>
 <p>When we are speaking to an audience, it is worth keeping in mind that despite the amazing power of the human brain, it does have limitations when it comes to cognition. Here are some of the "cogs" you should keep in mind both when you are preparing a speech and when you are on the stage.</p>
-
+<!--truncate-->
 <p><strong>The Cogs:</strong></p>
 <dl>
 <dt>Dissonance</dt>

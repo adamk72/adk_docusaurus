@@ -10,7 +10,7 @@ category: [Speaking]
 ---
 
 <p><em>So you wanna write a speech, huh? Well, here are some basic tips to get you on track:</em></p>
-
+<!--truncate-->
 - Think about it.
 - Think about it some more.
 - Do some minor research and think some more.

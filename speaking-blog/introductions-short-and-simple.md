@@ -1,5 +1,4 @@
 ---
-slug: introductions-short-and-simple
 title: Introductions - Keep them Short and Simple
 author: Adam Kecskes
 author_title: Speaking & Leadership Advisor
@@ -13,7 +12,7 @@ category: [Speaking]
 <p>I've recently watched a number of YouTube videos where first quarter of the talk was wrapped up in overly wrought introductions. The topics of these videos tended around informational subjects and the hosts wanted to establish their credibility, as well as promote the video (a very common thing on YouTube).</p>
 
 <p>Long intros like these are a drag. Set aside your ego or your fears of "looking qualified" long enough to get your basic points across.</p>
-
+<!--truncate-->
 <p>In these short format informational talks, I'd recommend that the intro be kept short and sweet. Do two things:</p>
 <ol>
 <li>Put out a simplified version of your credentials. Yes, you might be a doctor with a lot of letters after your name, and board certified this and that, but most audience will take your most basic information at face value. If you claim to be an expert, great! Just make the claim and at most mention that you've done a lot of research in the field you are about to talk about.</li>

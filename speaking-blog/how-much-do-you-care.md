@@ -1,5 +1,4 @@
 ---
-slug: how-much-do-you-care
 title: How much do you care?
 author: Adam Kecskes
 author_title: Speaking & Leadership Advisor
