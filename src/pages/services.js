@@ -104,6 +104,10 @@ export default function Services() {
                     Teams and management in conflict simply because of
                     difference in semantics.
                   </li>
+                  <li>
+                    Clients grow doubtful of their vendor (you!) because of lack
+                    of prompt and appropriate communication.
+                  </li>
                 </ul>
                 <p>
                   {' '}
