@@ -5,6 +5,10 @@
  * and scoped locally.
  */
 
+.getStarted {
+  color: var(--hero-base-color);
+}
+
 .heroIcon {
   height: 300px;
 }

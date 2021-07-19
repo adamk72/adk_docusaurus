@@ -19,6 +19,7 @@
   --ifm-code-font-size: 95%;
   --ifm-heading-font-family: 'Roboto Slab';
   --ifm-font-family-base: 'Montserrat';
+  --hero-base-color: #373b44;
 }
 
 .docusaurus-highlight-code-line {
@@ -31,7 +32,24 @@
 p {
   font-family: 'Roboto Slab';
 }
+
 a.button.button--secondary.button--outline:not(.button--active):not(:hover) {
-  color: white;
-  /* color: red; */
+  color: var(--hero-base-color);
+}
+
+h1.hero__title,
+p.hero__subtitle {
+  color: var(--hero-base-color);
+}
+h1.hero__title {
+  font-size: 4rem;
+  background: linear-gradient(to bottom, #ffffff, #373b44 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p.hero__subtitle {
+  font-size: 2.5rem;
+  display: block;
 }

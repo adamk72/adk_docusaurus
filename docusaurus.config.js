@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/blue_flipped_imbr_icon.png',
   organizationName: 'adamk72', // Usually your GitHub org/user name.
   projectName: 'adk_consulting', // Usually your repo name.
   themeConfig: {
@@ -17,7 +17,7 @@ module.exports = {
       title: 'Adam Kecskes Consulting',
       logo: {
         alt: 'Teamwork Site Logo',
-        src: 'img/teamwork_gear.png',
+        src: 'img/flipped_imbr_icon.svg',
       },
       items: [
         {
