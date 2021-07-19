@@ -38,7 +38,7 @@ export default function Services() {
               { label: 'Process Improvement', value: 'process' },
               { label: 'Leadership & Speaking', value: 'speaking' },
               { label: 'Bananas', value: 'banana' },
-              { label: 'VCs & Angels', value: 'angels' },
+              // { label: 'VCs & Angels', value: 'angels' },
             ]}
           >
             <TabItem value='process'>
@@ -122,14 +122,17 @@ export default function Services() {
                 </BareTabContent> */}
             </TabItem>
             <TabItem value='banana' key='banana' className={styles.bareTabItem}>
-              <BareTabContent title='An Essential Mineral' wip>
+              <BareTabContent title='An Essential Mineral'>
                 <p>
                   Because, seriously, you need some potassium in your diet. 🍌
                 </p>
-                <a href='https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/'>
-                  Fact Sheet for Health Professionals
-                </a>{' '}
-                <em>(and those who want more details)</em>
+                <p>
+                  <a href='https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/'>
+                    Fact Sheet for Health Professionals
+                  </a>{' '}
+                  <em>(and those who want more details)</em>
+                </p>
+                <p>Also, drink more water. 💧</p>
               </BareTabContent>
             </TabItem>
             <TabItem value='angels' key='angels' className={styles.bareTabItem}>
