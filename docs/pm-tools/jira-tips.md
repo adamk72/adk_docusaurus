@@ -4,7 +4,7 @@ Jira's default priorities are essentially meaningless (and I find this common wi
 
 In this case, for the PO, it's all part of the plan, so the priority is... "Medium?" What does that even mean? (BTW, Jira's default description is "Has the potential to affect progress." Great. Isn't that what ALL issues do?)
 
-I always change the priorities in an project system I'm managing to better reflect the picture of reality. My priority levels of choice are:
+I always change the priorities in a project system I'm managing to better reflect the picture of reality. My priority levels of choice are:
 
 - Blocker - Something about this issue is literally blocking the part of or the whole project. This is tangible and real. A server is down. The cat swiped the keys to the locker with the snacks in it. Whatever. What a blocker is not is something that "feels" like it's slowing things down. Either someone or the entire team is stopped in its tracks because of this issue.
 - Urgent - This is probably the weakest of my priority lists, but I have it as a nod to the need we have to try and order things outside of the backlog. In this case, Urgent means that if it is not attended to, a blocker could arise in its place, or an unforeseen schedule issue came to light. Urgent is essentially a "pay attention to me!" or a "time is of the essence" flag.
