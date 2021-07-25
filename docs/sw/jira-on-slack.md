@@ -31,7 +31,7 @@ Creating an issue will bring up a modal dialog for you to complete if you would 
 
 This will bring up a Slack comment that is visible only to you. From there, you can make a Comment, Watch, Assign, or Transition the issue.
 
-##Tips to get the most out of Jira on Slack
+## Tips to get the most out of Jira on Slack
 
 - Comment often. If a discussion on Slack has details worth noting, such as code suggestions, links, or actions taken (or that need to be taken), add a comment.
 - When creating an issue from Jira, don't worry if it's a possible duplicate. Simply create it. If it is a duplicate, it can be set as Resolved-> Duplicate.

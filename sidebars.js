@@ -29,13 +29,12 @@ module.exports = {
   software: [
     {
       type: 'category',
-      label: 'Best Practices',
+      label: 'Processes',
       items: [
         'sw/snapshot-mindset',
         'sw/using-jira',
         'sw/jira-on-slack',
         'sw/using-git',
-        'sw/git-on-slack',
       ],
     },
     {

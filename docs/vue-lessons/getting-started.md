@@ -5,6 +5,12 @@ slug: /vue-lessons
 
 This is my guide to Vue. I've tried to keep it simple so that I can skim through it easily. I hope it serves you well.
 
+:::caution
+
+This is for Vue 2. While still applicable to Vue 3, be aware there are new features to consider.
+
+:::
+
 ## Assumptions
 
 This won't be beginner friendly, per se. I'm creating this site mostly as reference that I'm familiar with and can easily get to where I need to be. Also, beware of errors. I don't necessarily check what I input.

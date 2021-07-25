@@ -1,10 +1,19 @@
 ---
 title: Mixins & Filters
 ---
+
 ## Mixins
-Mixins allow for composition between components. 
+
+Mixins allow for composition between components.
+
+:::caution
+
+Mixins are, for all practical purpose deprecated in Vue 3. Consider using the composition feature of Vue 3 instead of mixins
+
+:::
 
 myMixin.js
+
 ```javascript
 export default {
     // cannot share components
@@ -20,7 +29,9 @@ export default {
     }
 }
 ```
+
 MyComponent.vue
+
 ```javascript
 <script>
 import theMixin from '../mixins/myMixin.js'
@@ -37,6 +48,9 @@ If the parent component has the same script details, such as data, then the mixi
 :::
 
 ## Filters
+
+Filters are great way to manipulate data, especially text.
+
 ```javascript
 <template>
     <p>{{ myText | toUppercase }}

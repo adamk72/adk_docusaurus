@@ -10,9 +10,11 @@ This only works, however, if everyone provides a continuous stream of informatio
 
 Importantly, this system works best for everyone when certain guidelines and best practices are followed. The idea is to reduce friction in communication by communicating clearly and in the same way. Teams that do not have the discipline of following best practices end up with long laundry lists of "to-do" items that they are unsure of how to prioritize and what actually needs to be done (if anything). Such teams, along with the project manager and product owner, spend more time going over the work than actually doing the work itself.
 
-## The Snapshot:
+## The Snapshot
 
-1. Keep these things in mind to maintain a snapshot mindset:
-2. Make changes frequently and in small, commitable, chunks.
-3. Record your activities and update the state of your progress.
-4. Make statements that are clear and informative or actionable.
+Keep these things in mind to maintain a snapshot mindset:
+
+1. Make changes frequently and in small, committable, chunks.
+1. Record your activities and update the state of your progress.
+1. Make statements that are clear and informative or actionable.
+1. The more you share in a timely fashion, the better informed your co-workers will be, and the faster the team can work together.
